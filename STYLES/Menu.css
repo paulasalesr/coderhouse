@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*desktop*/
+
+@media screen and (min-width:992px) {
+   
+    .body{
+        overflow-x: hidden;
+    }
+    
+   
+    .Background{
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/paula-vermeulen-URjZkhqsuBk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        
+    }
+    
+        
+    .header{
+        margin: 0;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+    }
+    
+    .nav{
+        background-color: transparent;
+        overflow: hidden;
+        position: fixed;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .Menu nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .Logo{
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        padding: 30px 50px 55px ;
+    }
+    
+    .MenuNav span{
+        display: block;
+        background: #F8F4E9;
+        width: 100%;
+        height: 3px;
+        transition: .3s;
+        transition-property: transform,opacity;
+    }
+    
+    .NavList{
+        padding: 60px 50px 55px;
+        flex-wrap: nowrap;
+    }
+    
+    .NavList a{
+        display: inline-block;
+        color:#F8F4E9;
+        margin-left: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        flex-wrap: nowrap;
+    }
+    
+    .NavList a:hover{
+        color: #D8A566; 
+        transition: .4s;
+    }
+    
+    .MenuNav span:nth-child(2){
+        margin: 7px 0px;
+    }
+
+    #menu-icon{
+        color: #D6C6B7;
+        display: inline-block;
+        margin-left: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        flex-wrap: nowrap;
+        cursor: pointer;
+        z-index: 1001;
+        display: none;
+
+    }
+    
+    .Container{
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+    
+    .Container MainText{
+        margin-bottom: 40px;
+    }
+    
+    .MainText h1{
+        color: #D6C6B7;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 5px 0 5px;
+    }
+    
+    .TextEffect{
+        color: #D8A566;
+    
+    }
+    
+    .MainText p{
+        width: 440px;
+        max-width: 100%;
+        color: #F8F4E9;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 30px;        
+    }
+    
+    .Social a{
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-bottom: 35px;
+    }
+    
+    .Social a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+    
+    .Container .MainText button{
+        color: #F8F4E9;
+        background: #D8A566;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 6px 30px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        border: 2px solid #D8A566;
+        cursor: pointer;
+    }
+    
+    .Container .MainText button:hover{
+        background: transparent;
+        border: 2px solid #D8A566;
+        color: #D8A566;
+        transition: .4s;
+    }
+}
+
+
+/*mobile*/
+
+@media screen and (max-width:576px) {
+        
+    .body{
+        overflow-x: hidden;
+    }
+       
+    .Background{
+        width: 100%;
+        height: 100%;
+        min-width: 100vh;
+        min-height: 240vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/paula-vermeulen-URjZkhqsuBk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        position: absolute;
+    
+    }
+    
+        
+    .header{
+        margin: 0;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+    }
+    
+    .nav{
+        background-color: transparent;
+        overflow: hidden;
+        position: fixed;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .Menu nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .Logo{
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        padding: 100px 70px 55px ;
+        
+    }
+    
+    .MenuNav span{
+        display: block;
+        background: #F8F4E9;
+        width: 100%;
+        height: 3px;
+        transition: .3s;
+        transition-property: transform,opacity;
+    }
+    
+    .NavList{
+        padding: 110px 50px 55px;
+        flex-wrap: nowrap;
+    }
+    
+    .NavList a{
+        display: inline-block;
+        color:#F8F4E9;
+        margin-left: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        flex-wrap: nowrap;
+    }
+
+    
+    .NavList a:hover{
+        color: #D8A566; 
+        transition: .4s;
+    }
+    
+    .MenuNav span:nth-child(2){
+        margin: 7px 0px;
+    }
+    
+    #menu-icon{
+        color: #D6C6B7;
+        display: inline-block;
+        margin-left: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        flex-wrap: nowrap;
+        cursor: pointer;
+        z-index: 1001;
+        display: none;
+    }
+
+    .Container{
+        padding-top: 100px;
+        padding-left: 110px;
+    }
+    
+    .Container MainText{
+        margin-bottom: 680px;
+    }
+    
+    .MainText h1{
+        color: #D6C6B7;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 5px 0 5px;
+    }
+    
+    .TextEffect{
+        color: #D8A566;
+    
+    }
+    
+    .MainText p{
+        width: 440px;
+        max-width: 100%;
+        color: #F8F4E9;
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 30px;        
+    }
+    
+    .Social a{
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-bottom: 35px;
+    }
+    
+    .Social a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+    
+    .Container .MainText button{
+        color: #F8F4E9;
+        background: #D8A566;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 6px 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        border: 2px solid #D8A566;
+        cursor: pointer;
+    }
+    
+    .Container .MainText button:hover{
+        background: transparent;
+        border: 2px solid #D8A566;
+        color: #D8A566;
+        transition: .4s;
+    }  
+}
+
+/*tablet*/
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+        
+    .body{
+        overflow-x: hidden;
+    }
+    
+      
+    .Background{
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagens/paula-vermeulen-URjZkhqsuBk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+        
+    .header{
+        margin: 0;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+    }
+    
+    .nav{
+        background-color: transparent;
+        overflow: hidden;
+        position: fixed;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .Menu nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .Logo{
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        padding: 30px 50px 55px;
+        width: 260px;
+    }
+    
+    .MenuNav span{
+        display: block;
+        background: #F8F4E9;
+        width: 100%;
+        height: 3px;
+        transition: .3s;
+        transition-property: transform,opacity;
+    }
+    
+    .NavList{
+        padding: 60px 50px 55px;
+        flex-wrap: nowrap;
+    }
+    
+    .NavList a{
+        display: inline-block;
+        color:#F8F4E9;
+        margin-left: 55px;
+        font-size: 12px;
+        transition: .2s;
+        font-weight: 400;
+        flex-wrap: nowrap;
+    }
+    
+    .NavList a:hover{
+        color: #D8A566; 
+        transition: .4s;
+    }
+    
+    .MenuNav span:nth-child(2){
+        margin: 7px 0px;
+    }
+    
+    #menu-icon{
+        color: #D6C6B7;
+        display: inline-block;
+        margin-left: 55px;
+        font-size: 14px;
+        font-weight: 400;
+        flex-wrap: nowrap;
+        cursor: pointer;
+        z-index: 1001;
+        display: none;
+    }
+
+    .Container{
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+    
+    .Container MainText{
+        margin-bottom: 40px;
+    }
+    
+    .MainText h1{
+        color: #D6C6B7;
+        font-size: 22px;
+        transition: .2s;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 5px 0 5px;
+    }
+    
+    .TextEffect{
+        color: #D8A566;
+    
+    }
+    
+    .MainText p{
+        width: 440px;
+        max-width: 100%;
+        color: #F8F4E9;
+        font-size: 10px;
+        transition: .2s;
+        line-height: 1.5;
+        margin-bottom: 30px;        
+    }
+    
+    .Social a{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        transition: .2s;
+        color: #F8F4E9;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-bottom: 35px;
+    }
+    
+    .Social a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+    
+    .Container .MainText button{
+        color: #F8F4E9;
+        background: #D8A566;
+        font-size: 10px;
+        transition: .2s;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 4px 28px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        border: 2px solid #D8A566;
+        cursor: pointer;
+    }
+    
+    .Container .MainText button:hover{
+        background: transparent;
+        border: 2px solid #D8A566;
+        color: #D8A566;
+        transition: .4s;
+    }  
+}
+
+/*menu-display*/
+
+@media (max-width: 1470px){
+    
+
+
+}
