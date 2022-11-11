@@ -56,6 +56,9 @@
         cursor: pointer;
         position: relative;
         padding: 30px 50px 55px ;
+        margin-top: 15px;
+        margin-left: 15px;
+        
     }
     
     .MenuNav span{
@@ -69,6 +72,7 @@
     
     .NavList{
         padding: 60px 50px 55px;
+        margin-left: 250px;
         flex-wrap: nowrap;
     }
     
@@ -180,7 +184,7 @@
 
 /*mobile*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
         
     .body{
         overflow-x: hidden;
@@ -228,8 +232,10 @@
         cursor: pointer;
         position: relative;
         padding: 100px 70px 55px ;
-        
+               
     }
+
+    
     
     .MenuNav span{
         display: block;
@@ -284,7 +290,7 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        margin-right: 70px;
+        margin-right: 60px;
         font-size: 48px;
         font-weight: 600;
         background-color: rgba(255, 255, 255, 0.1);
@@ -385,7 +391,9 @@
         color: #D8A566;
         transition: .4s;
     }  
+
 }
+
 
 /*tablet*/
 
@@ -394,16 +402,19 @@
     .body{
         overflow-x: hidden;
     }
-    
-      
+       
     .Background{
         width: 100%;
         height: 100%;
-        min-height: 100vh;
+        min-width: 100vh;
+        min-height: 150vh;
+        transition: .2s ease;
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/paula-vermeulen-URjZkhqsuBk-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        position: relative;
+        background-attachment: scroll;
+        position: absolute;
+    
     }
     
         
@@ -434,8 +445,11 @@
         background: transparent;
         cursor: pointer;
         position: relative;
-        padding: 30px 50px 55px;
+        padding: 100px 70px 55px ;
+               
     }
+
+    
     
     .MenuNav span{
         display: block;
@@ -447,57 +461,90 @@
     }
     
     .NavList{
-        padding: 60px 50px 55px;
-        flex-wrap: nowrap;
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background:  rgba(255, 255, 255, 0.1); 
+        text-align: left;
+        transition: all .43s ease;
     }
     
     .NavList a{
-        display: inline-block;
+        display: block;
         color:#F8F4E9;
-        margin-left: 55px;
-        font-size: 12px;
-        transition: .2s;   
+        font-size: 16px;
+        transition: .2s;
+        padding: 7px;
         font-weight: 400;
-        flex-wrap: nowrap;
+        margin: 15px;
+        border-bottom: none;
+        border-left: 2px solid #D8A566;
+        
+
     }
-    
+
+     
     .NavList a:hover{
-        color: #D8A566; 
+        border-bottom: none;
+        background: #D8A566; 
         transition: .4s;
+        color: #F8F4E9;
     }
     
     .MenuNav span:nth-child(2){
         margin: 7px 0px;
     }
     
-    .menu-icon{
+    .MenuIcon{
         color: #D6C6B7;
-        display: inline-block;
-        margin-left: 55px;
-        font-size: 14px;
-        font-weight: 400;
+        display: block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 60px;
+        font-size: 48px;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
         flex-wrap: nowrap;
         cursor: pointer;
         z-index: 1001;
-        display: none;
+        
     }
 
+    .MenuIcon:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+        color:#F8F4E9
+
+    }
+
+    .NavList.open{
+        top:10%;
+
+    }
     .Container{
-        padding-top: 10px;
-        padding-left: 100px;
+        padding-top: 70px;
+        padding-left: 110px;
     }
     
     .Container MainText{
-        margin-bottom: 40px;
+        margin-bottom: 680px;
     }
     
     .MainText h1{
         color: #D6C6B7;
-        font-size: 22px;
+        font-size: 36px;
         transition: .2s;
         font-weight: 900;
         line-height: 1.2;
-        margin: 5px 0 5px;
+        margin: 4px 0 8px;
     }
     
     .TextEffect{
@@ -509,25 +556,25 @@
         width: 440px;
         max-width: 100%;
         color: #F8F4E9;
-        font-size: 10px;
+        font-size: 16px;
         transition: .2s;
         line-height: 1.5;
-        margin-bottom: 30px;        
+        margin-bottom: 26px;        
     }
     
     .Social a{
-        width: 35px;
-        height: 35px;
+        width: 58px;
+        height: 58px;
         border-radius: 50%;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        font-size: 15px;
+        font-size: 30px;
         transition: .2s;
         color: #F8F4E9;
         cursor: pointer;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 12px;
         background-color: rgba(255, 255, 255, 0.1);
         margin-bottom: 35px;
     }
@@ -541,23 +588,23 @@
     .Container .MainText button{
         color: #F8F4E9;
         background: #D8A566;
-        font-size: 10px;
+        font-size: 18px;
         transition: .2s;
         font-weight: 500;
-        line-height: 22px;
-        padding: 4px 28px;
-        margin-bottom: 15px;
+        line-height: 26px;
+        padding: 6px 32px;
+        margin-bottom: 10px;
+        margin-top: 5px;
         border-radius: 30px;
-        border: 2px solid #D8A566;
+        border: 8px solid #D8A566;
         cursor: pointer;
     }
     
     .Container .MainText button:hover{
         background: transparent;
-        border: 2px solid #D8A566;
+        border: 8px solid #D8A566;
         color: #D8A566;
         transition: .4s;
     }  
+
 }
-
-
