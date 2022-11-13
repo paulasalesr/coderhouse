@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width:571px ) and (max-width:889px ){
+
+    section{
+        width: 100%;
+        height:2900px;
+        background-image: url(../imagens/fundo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .Menu{
+    
+        padding-top: 7%;
+        text-align: center;
+    }
+
+    .Background .Social{
+        display: none;
+    }
+    .socialMobile{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .socialMobile a{
+      
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+    }
+    
+    .socialMobile a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+       
+    .NavList{
+        margin-top: 2%;
+    }
+
+    .NavList .NavContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+    .NavItem{
+        
+        list-style: none;
+    }
+    .item{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+    }
+    .item:hover{
+        color:#D8A566;
+        transition: color  .4s;
+      
+    }
+    .container{
+   height: 2700px;
+        margin-top: 20%;
+        
+        
+    }
+    .container .entrada{
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+        
+        
+    }
+    .container .petiscos{
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+      
+    }
+    .container .bebidas{
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+        
+    }
+    .bebidas .semAlcool{
+        
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+        
+        
+    }
+    .semAlcool .pratos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5%;
+        
+    }
+    .pratos .pratoItem{
+        margin-left: 5%;
+    }
+    .pratos .preco{
+        margin-right: 5%;
+        
+    }
+    
+   
+    .bebidas .cervejas{
+        
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+       
+    }
+    .cervejas .pratos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .bebidas .artesanais{
+        
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+        
+    }
+    .artesanais .titleBebidasItem{
+        text-align: start;
+    }
+    .artesanais .artesanaisItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bebidas .drink{
+      
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+    }
+    .drink .titleBebidasItem{
+        text-align: start;
+    }
+    .drink .caipiraItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .drink .dosesItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container .sandubas{
+        
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+    }
+    .htres{
+        font-size: 16px;
+        color: black;
+    }
+    .hcinco{
+        font-style: italic;
+        font-size: 12px;
+      color:black;
+    }
+ 
+}
+
+
+@media screen and (max-width:570px){
+    section{
+        width: 100%;
+        height:2900px;
+        background-image: url(../imagens/fundo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .Menu{
+    
+        padding-top: 7%;
+        text-align: center;
+    }
+
+    .Background .Social{
+        display: none;
+    }
+    .socialMobile{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .socialMobile a{
+      
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+    }
+    
+    .socialMobile a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+       
+    .NavList{
+        margin-top: 2%;
+    }
+
+    .NavList .NavContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+    .NavItem{
+        
+        list-style: none;
+    }
+    .item{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+    }
+    .item:hover{
+        color:#D8A566;
+        transition: color  .4s;
+      
+    }
+    .container{
+   height: 2700px;
+        margin-top: 20%;
+        
+        
+    }
+    .container .entrada{
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+        
+        
+    }
+    .container .petiscos{
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+      
+    }
+    .container .bebidas{
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+        
+    }
+    .bebidas .semAlcool{
+        
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+        
+        
+    }
+    .semAlcool .pratos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5%;
+        
+    }
+    .pratos .pratoItem{
+        margin-left: 5%;
+    }
+    .pratos .preco{
+        margin-right: 5%;
+        
+    }
+    
+   
+    .bebidas .cervejas{
+        
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+       
+    }
+    .cervejas .pratos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .bebidas .artesanais{
+        
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+        
+    }
+    .artesanais .titleBebidasItem{
+        text-align: start;
+    }
+    .artesanais .artesanaisItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bebidas .drink{
+      
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: gray;
+        backdrop-filter: blur(20px);
+    }
+    .drink .titleBebidasItem{
+        text-align: start;
+    }
+    .drink .caipiraItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .drink .dosesItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container .sandubas{
+        
+        text-align: center;
+        padding: 10px;
+        margin-left: 10%;
+        margin-top: 5%;
+       width: 80%;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+    }
+    .htres{
+        font-size: 16px;
+        color: black;
+    }
+    .hcinco{
+        font-style: italic;
+        font-size: 12px;
+      color:black;
+    }
+ 
+}
+
+    
+@media screen and (min-width:900px) {
+    section{
+        width: 100%;
+        height:1500px;
+        background-image: url(../imagens/fundo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .socialMobile{
+        display: none;
+    }
+    
+    .Menu{
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    
+    .LogoCoderPoint{
+        margin-left: 10%;
+    }
+    .Menu .Social{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+      
+    
+    }
+    .Menu .NavList{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px; 
+       
+    }
+    
+    .NavList .NavContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px; 
+        margin-top: 5%;
+    }
+    .NavList .NavItem{
+        list-style: none;
+    
+    }
+    .NavList .item{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    
+     .item:hover{
+        color:#D8A566;
+        transition: color  .4s;
+      
+    }
+    .Social a{
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+    }
+    
+    .Social a:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-template-rows: 300px 400px;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 2%;
+    
+    }
+    
+    .container .entrada{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+       box-sizing: border-box;
+       gap: 2%;
+       justify-content: space-between;
+       border-left: 2px solid white;
+       border-bottom: 2px solid white;
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+    
+    }
+    .entrada .preco{
+        margin-right: 10%;
+    }
+    
+    .container .hum{
+        height: 30px;
+        margin-left: 10px;
+        color: black;
+        
+    }
+    .container .petiscos{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2%;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        
+        
+    }
+    .petiscos .preco{
+        margin-right: 10%;
+    }
+    .petiscos .pratos{
+        margin-top: 5px;
+    }
+    
+    .container .sandubas{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        justify-content: space-between;
+    }
+    .sandubas .preco{
+        margin-right: 10%;
+    }
+    .container .bebidas{
+        height: 680px;
+        display: grid;
+        grid-template-areas: 
+        "bebidas bebidas "
+        "cerveja artesanais "
+        "semalcool drink";
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:50px 1fr 1fr;
+        gap: 5%;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        
+    }
+    .bebidas .bebidasTitle{
+    grid-area: bebidas;
+    color: white;
+    
+    }
+    
+    .bebidas .semAlcool{
+        grid-area:semalcool;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        box-sizing: border-box;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    
+    }
+    .semAlcool .preco{
+        margin-right: 10%;
+        font-size: 14px;
+    }
+     .titleBebidas{
+        color: black;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .titleBebidasItem{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .bebidas .cervejas{
+        grid-area: cerveja;
+      
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        box-sizing: border-box;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        
+    }
+    .cervejas .preco{
+        margin-right: 10%;
+        font-size: 14px;
+    }
+    .bebidas .artesanais{
+        grid-area: artesanais;
+       
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .artesanais .artesanaisItem{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .artesanaisItem .preco{
+        margin-right: 20%;
+        font-size: 16px;
+    }
+    .artesanais .pratoItem{
+        width: 100%;
+    }
+    .bebidas .drink{
+        grid-area: drink;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        
+    }
+    .drink .caipiraItem{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .drink .preco{
+        margin-right: 20%;
+        font-size: 16px;
+    }
+    .drink .dosesItem{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .drink .pratoItem{
+        width: 100%;
+    }
+    .pratos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        color: black;
+         box-sizing: border-box;  
+         margin-left: 30px;    
+    }
+    
+    .artesanais .prato{
+        display: flex;
+        flex-direction: column;
+    }
+    .htres{
+        font-size: 16px;
+        color: black;
+    }
+    .hcinco{
+        font-style: italic;
+        font-size: 12px;
+      color:black;
+    
+      ;
+    }
+    .preco{
+    color: black;
+    }
+}
