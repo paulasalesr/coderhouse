@@ -21,6 +21,20 @@
         padding-top: 7%;
         text-align: center;
     }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 2px solid black;
+    }
+    .menu-icon{
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+    .logoCoderPoint{
+        margin-left: 30%;
+
+    }
 
     .Background .Social{
         display: none;
@@ -233,7 +247,76 @@
         padding-top: 7%;
         text-align: center;
     }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 2px solid black;
+      
+    }
+    .menu-icon{
+        margin-right: 7%;
+        margin-top: 5%;
+    }
+    .logoCoderPoint{
+        margin-left: 10%;
+        width: 300px;
+        padding: 5%;
+        
 
+    }
+    .menu-icon{
+        color: #D6C6B7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        margin-right: 60px;
+        font-size: 30px;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        flex-wrap: nowrap;
+        cursor: pointer;
+        z-index: 1001;
+    }
+    .menu-icon:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+        color:#F8F4E9
+
+    }
+       .menu-icon .dropdown-menu{
+            background-color:  rgba(255, 255, 255, 0.1);
+            width: 30%;
+            height: auto;
+            
+          
+         
+        }
+      
+        .dropdown-menu .dropdown-item{
+            color:#F8F4E9;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 15px;
+            border-bottom: none;
+            border-left: 2px solid #D8A566;
+            text-align: left;
+            display: block;
+            
+        }
+        .dropdown-menu .dropdown-item:hover{
+            border-bottom: none;
+            background: #D8A566; 
+            transition: .4s;
+            color: #D8A566;
+        }
+        
+   
     .Background .Social{
         display: none;
     }
@@ -267,7 +350,7 @@
     }
        
     .NavList{
-        margin-top: 2%;
+       display: none;
     }
 
     .NavList .NavContent{
@@ -448,8 +531,7 @@
         grid-template-columns: 2fr 2fr ;
         grid-template-rows: 1fr 1fr;
     }
-    
-    
+   
     .LogoCoderPoint{
         margin-left: 10%;
     }
