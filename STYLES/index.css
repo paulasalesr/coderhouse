@@ -307,6 +307,14 @@
         
     }
 
+    .menu-icon:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+        color:#F8F4E9
+
+    }
+
     .dropdown-menu{
         background-color:  rgba(255, 255, 255, 0.1);
         width: 30%;
@@ -322,18 +330,17 @@
         margin: 15px;
         border-bottom: none;
         border-left: 2px solid #D8A566;
+        text-align: left;
+        display: block;
     }
 
-    .MenuIcon:hover{
-        transform: scale(1.1);
-        background: #D8A566;
+    .dropdown-menu .dropdown-item:hover{
+        border-bottom: none;
+        background: #D8A566; 
         transition: .4s;
-        color:#F8F4E9
-
+        color: #D8A566;
     }
-
-        
-
+    
     .Container{
         padding-top: 200px;
         padding-left: 110px;
@@ -536,6 +543,14 @@
         
     }
 
+    .menu-icon:hover{
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+        color:#F8F4E9
+
+    }
+
     .dropdown-menu{
         background-color:  rgba(255, 255, 255, 0.1);
         width: 30%;
@@ -551,20 +566,17 @@
         margin: 15px;
         border-bottom: none;
         border-left: 2px solid #D8A566;
+        text-align: left;
+        display: block;
     }
 
-    .MenuIcon:hover{
-        transform: scale(1.1);
-        background: #D8A566;
+    .dropdown-menu .dropdown-item:hover{
+        border-bottom: none;
+        background: #D8A566; 
         transition: .4s;
-        color:#F8F4E9
-
+        color: #D8A566;
     }
-
-    .NavList.open{
-        top:10%;
-
-    }
+    
     .Container{
         padding-top: 70px;
         padding-left: 110px;
