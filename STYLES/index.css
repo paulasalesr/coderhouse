@@ -4,6 +4,7 @@
     box-sizing: 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 }
 
 
@@ -49,6 +50,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
+        text-decoration: none;
     }
     
     .Logo{
@@ -82,8 +84,9 @@
         margin-left: 55px;
         font-size: 14px;
         font-weight: 400;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap{!important};
         border-bottom: none;
+        text-decoration: none;
     }
     
     .NavList a:hover{
@@ -153,6 +156,7 @@
         margin-top: 10px;
         background-color: rgba(255, 255, 255, 0.1);
         margin-bottom: 35px;
+        text-decoration: none;
     }
     
     .Social a:hover{
