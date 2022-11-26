@@ -10,14 +10,13 @@
 
 /*desktop*/
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px){
    
     .body{
         overflow-x: hidden;
     }
-    
-   
-    .Background{
+ 
+    .background{
         width: 100%;
         height: 100%;
         min-height: 100vh;
@@ -45,7 +44,7 @@
         min-height: 100vh;
     }
     
-    .Menu nav{
+    .menu nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -53,7 +52,7 @@
         text-decoration: none;
     }
     
-    .Logo{
+    .logo{
         background: transparent;
         cursor: pointer;
         position: relative;
@@ -63,41 +62,27 @@
         
     }
     
-    .MenuNav span{
-        display: block;
-        background: #F8F4E9;
-        width: 100%;
-        height: 3px;
-        transition: .3s;
-        transition-property: transform,opacity;
-    }
-    
-    .NavList{
+    .nav-list{
         padding: 60px 50px 55px;
         margin-left: 250px;
         flex-wrap: nowrap;
     }
     
-    .NavList a{
+    .nav-list a{
         display: inline-block;
         color:#F8F4E9;
         margin-left: 55px;
         font-size: 14px;
         font-weight: 400;
-        flex-wrap: nowrap{!important};
         border-bottom: none;
         text-decoration: none;
     }
     
-    .NavList a:hover{
+    .nav-list a:hover{
         color: #D8A566; 
         transition: .4s;
     }
     
-    .MenuNav span:nth-child(2){
-        margin: 7px 0px;
-    }
-
     .menu-icon{
         color: #D6C6B7;
         display: inline-block;
@@ -111,16 +96,16 @@
 
     }
     
-    .Container{
+    .container{
         padding-top: 10px;
         padding-left: 100px;
     }
     
-    .Container MainText{
+    .container main-text{
         margin-bottom: 40px;
     }
     
-    .MainText h1{
+    .main-text h1{
         color: #D6C6B7;
         font-size: 28px;
         font-weight: 900;
@@ -128,12 +113,12 @@
         margin: 5px 0 5px;
     }
     
-    .TextEffect{
+    .text-effect{
         color: #D8A566;
     
     }
     
-    .MainText p{
+    .main-text p{
         width: 440px;
         max-width: 100%;
         color: #F8F4E9;
@@ -142,7 +127,7 @@
         margin-bottom: 30px;        
     }
     
-    .Social a{
+    .social a{
         width: 37px;
         height: 37px;
         border-radius: 50%;
@@ -159,13 +144,13 @@
         text-decoration: none;
     }
     
-    .Social a:hover{
+    .social a:hover{
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
     
-    .Container .MainText button{
+    .container .main-text button{
         color: #F8F4E9;
         background: #D8A566;
         font-size: 13px;
@@ -178,7 +163,7 @@
         cursor: pointer;
     }
     
-    .Container .MainText button:hover{
+    .container .main-text button:hover{
         background: transparent;
         border: 2px solid #D8A566;
         color: #D8A566;
@@ -191,6 +176,7 @@
 }
 
 
+
 /*mobile*/
 
 @media screen and (max-width:576px){
@@ -199,7 +185,7 @@
         overflow-x: hidden;
     }
        
-    .Background{
+    .background{
         width: 100%;
         height: 100%;
         min-width: 100vh;
@@ -229,14 +215,14 @@
         min-height: 100vh;
     }
     
-    .Menu nav{
+    .menu nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
     }
     
-    .Logo{
+    .logo{
         background: transparent;
         cursor: pointer;
         position: relative;
@@ -244,18 +230,7 @@
                
     }
 
-    
-    
-    .MenuNav span{
-        display: block;
-        background: #F8F4E9;
-        width: 100%;
-        height: 3px;
-        transition: .3s;
-        transition-property: transform,opacity;
-    }
-    
-    .NavList{
+    .nav-list{
         position: absolute;
         top: -600px;
         left: 0;
@@ -267,7 +242,7 @@
         transition: all .43s ease;
     }
     
-    .NavList a{
+    .nav-list a{
         display: block;
         color:#F8F4E9;
         font-size: 16px;
@@ -282,15 +257,11 @@
     }
 
      
-    .NavList a:hover{
+    .nav-list a:hover{
         border-bottom: none;
         background: #D8A566; 
         transition: .4s;
         color: #F8F4E9;
-    }
-    
-    .MenuNav span:nth-child(2){
-        margin: 7px 0px;
     }
     
     .menu-icon{
@@ -345,16 +316,16 @@
         color: #D8A566;
     }
     
-    .Container{
+    .container{
         padding-top: 200px;
         padding-left: 110px;
     }
     
-    .Container MainText{
+    .container .main-text{
         margin-bottom: 680px;
     }
     
-    .MainText h1{
+    .main-text h1{
         color: #D6C6B7;
         font-size: 42px;
         transition: .2s;
@@ -363,12 +334,12 @@
         margin: 8px 0 8px;
     }
     
-    .TextEffect{
+    .text-effect{
         color: #D8A566;
     
     }
     
-    .MainText p{
+    .main-text p{
         width: 440px;
         max-width: 100%;
         color: #F8F4E9;
@@ -378,7 +349,7 @@
         margin-bottom: 34px;        
     }
     
-    .Social a{
+    .social a{
         width: 62px;
         height: 62px;
         border-radius: 50%;
@@ -395,13 +366,13 @@
         margin-bottom: 35px;
     }
     
-    .Social a:hover{
+    .social a:hover{
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
     
-    .Container .MainText button{
+    .container .main-text button{
         color: #F8F4E9;
         background: #D8A566;
         font-size: 22px;
@@ -415,7 +386,7 @@
         cursor: pointer;
     }
     
-    .Container .MainText button:hover{
+    .container .main-text button:hover{
         background: transparent;
         border: 8px solid #D8A566;
         color: #D8A566;
@@ -433,7 +404,7 @@
         overflow-x: hidden;
     }
        
-    .Background{
+    .background{
         width: 100%;
         height: 100%;
         min-width: 100vh;
@@ -464,33 +435,22 @@
         min-height: 100vh;
     }
     
-    .Menu nav{
+    .menu nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
     }
     
-    .Logo{
+    .logo{
         background: transparent;
         cursor: pointer;
         position: relative;
         padding: 100px 70px 55px ;
                
     }
-
-    
-    
-    .MenuNav span{
-        display: block;
-        background: #F8F4E9;
-        width: 100%;
-        height: 3px;
-        transition: .3s;
-        transition-property: transform,opacity;
-    }
-    
-    .NavList{
+   
+    .nav-list{
         position: absolute;
         top: -600px;
         left: 0;
@@ -502,7 +462,7 @@
         transition: all .43s ease;
     }
     
-    .NavList a{
+    .nav-list a{
         display: block;
         color:#F8F4E9;
         font-size: 16px;
@@ -512,22 +472,15 @@
         margin: 15px;
         border-bottom: none;
         border-left: 2px solid #D8A566;
-        
-
     }
-
-     
-    .NavList a:hover{
+ 
+    .nav-list a:hover{
         border-bottom: none;
         background: #D8A566; 
         transition: .4s;
         color: #F8F4E9;
     }
-    
-    .MenuNav span:nth-child(2){
-        margin: 7px 0px;
-    }
-    
+        
     .menu-icon{
         color: #D6C6B7;
         display: block;
@@ -581,16 +534,16 @@
         color: #D8A566;
     }
     
-    .Container{
+    .container{
         padding-top: 70px;
         padding-left: 110px;
     }
     
-    .Container MainText{
+    .container .main-text{
         margin-bottom: 680px;
     }
     
-    .MainText h1{
+    .main-text h1{
         color: #D6C6B7;
         font-size: 36px;
         transition: .2s;
@@ -599,12 +552,12 @@
         margin: 4px 0 8px;
     }
     
-    .TextEffect{
+    .text-effect{
         color: #D8A566;
     
     }
     
-    .MainText p{
+    .main-text p{
         width: 440px;
         max-width: 100%;
         color: #F8F4E9;
@@ -614,7 +567,7 @@
         margin-bottom: 26px;        
     }
     
-    .Social a{
+    .social a{
         width: 58px;
         height: 58px;
         border-radius: 50%;
@@ -631,13 +584,13 @@
         margin-bottom: 35px;
     }
     
-    .Social a:hover{
+    .social a:hover{
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
     
-    .Container .MainText button{
+    .container .main-text button{
         color: #F8F4E9;
         background: #D8A566;
         font-size: 18px;
@@ -652,7 +605,7 @@
         cursor: pointer;
     }
     
-    .Container .MainText button:hover{
+    .container .main-text button:hover{
         background: transparent;
         border: 8px solid #D8A566;
         color: #D8A566;
