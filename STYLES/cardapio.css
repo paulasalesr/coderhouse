@@ -8,7 +8,7 @@
 @media screen and (max-width:576px){
     section{
         width: 100%;
-        height:2900px;
+        height:2800px;
         background-image: url(../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
@@ -295,7 +295,7 @@
 
     section{
         width: 100%;
-        height:3500px;
+        height:2800px;
         background-image: url(../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
@@ -582,7 +582,7 @@
 @media screen and (min-width:769px) and (max-width:992px) {
     section{
         width: 100%;
-        height:4200px;
+        height:2800px;
         background-image: url(../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
@@ -728,7 +728,7 @@
         
     }
     .container .petiscos{
-        width: 60%;
+        width: 90%;
         height: 850px;
         display: flex;
         flex-direction: column;
@@ -738,7 +738,7 @@
         background-color: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(10px);
         margin-bottom: 30px;
-        margin-left: 300px;
+        margin-left: 40px;
        
   
     }
@@ -746,7 +746,7 @@
     
     .container .sandubas{
         height: 700px;
-        width: 60%;
+        width: 90%;
         display: flex;
         flex-direction: column;
        justify-content: center;
@@ -754,9 +754,9 @@
         border-bottom: 2px solid white;
         background-color: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(10px);
-      
-        margin-bottom: 30px;
         margin-left: 300px;
+        margin-bottom: 30px;
+        margin-left: 40px;
     }
    
      .bebidas{
@@ -776,7 +776,7 @@
         backdrop-filter: blur(10px);
         margin-bottom: 30px;
         margin-top: 60px;
-        
+        margin-left: 300px;
         
     }
     .bebidas .bebidasTitle{
@@ -899,7 +899,7 @@
     @media screen  and (min-width:992px) {
         section{
             width: 100%;
-            height:4200px;
+            height:2800px;
             background-image: url(../imagens/fundo.jpg);
             background-size: cover;
             background-attachment: fixed;
@@ -989,7 +989,7 @@
         }
  
         .container .entrada{
-            width: 70%;
+            width: 60%;
             height: 950px;
             display: flex;
             flex-direction: column;
@@ -1001,7 +1001,7 @@
            backdrop-filter: blur(10px);
            margin-bottom: 30px;
            margin-top: 30px;
-           margin-left: 150px;
+           margin-left: 300px;
         
         }
          .preco{
