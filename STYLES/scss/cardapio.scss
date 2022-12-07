@@ -295,6 +295,25 @@
         font-size: 12px;
       color:black;
     }
+    .stickyMobile{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+        background-color: #00bb2d;
+        border-radius: 100px;
+        position: fixed;
+        bottom: 20px;
+        margin-left:89%;
+        
+        .stickyIcon{
+            font-size: 20px;
+            color: white;
+            
+        }
+      }
     .rodape{
         background-color:#363636;
         border: solid;
@@ -708,6 +727,35 @@
         font-size: 12px;
       color:black;
     }
+    .stickyMobile{
+        display: none;
+    }
+    .sticky{
+        width: 150px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+        background-color: #00bb2d;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 20px;
+        margin-left:80%;
+        
+        .stickyName{
+            font-size: 14px;
+            color: white;
+            font-weight:bold;
+          
+        }
+        .stickyIcon{
+            font-size: 20px;
+            color: white;
+           margin-top: 5px;
+            
+        }
+      }
     .rodape{
         background-color:#363636;
         border: solid;
@@ -1157,6 +1205,35 @@
         display: flex;
         flex-direction: column;
     }
+    .stickyMobile{
+        display: none;
+    }
+    .sticky{
+        width: 150px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+        background-color: #00bb2d;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 20px;
+        margin-left:78%;
+        
+        .stickyName{
+            font-size: 14px;
+            color: white;
+            font-weight:bold;
+          
+        }
+        .stickyIcon{
+            font-size: 20px;
+            color: white;
+           margin-top: 5px;
+            
+        }
+      }
     .rodape{
         background-color:#363636;
         border: solid;
@@ -1381,7 +1458,8 @@
         }
         .container{
             width: 100%;
-       
+           
+
         }
  
         .container .entrada{
@@ -1397,7 +1475,7 @@
            backdrop-filter: blur(10px);
            margin-bottom: 30px;
            margin-top: 30px;
-           margin-left: 200px;
+           margin-left: 150px;
         
         }
          .preco{
@@ -1452,7 +1530,7 @@
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
             margin-bottom: 30px;
-            margin-left: 200px;
+            margin-left: 150px;
            
       
         }
@@ -1470,7 +1548,7 @@
             backdrop-filter: blur(10px);
           
             margin-bottom: 30px;
-            margin-left: 200px;
+            margin-left: 150px;
         }
        
          .bebidas{
@@ -1609,7 +1687,35 @@
             display: flex;
             flex-direction: column;
         }
-      
+        .stickyMobile{
+            display: none;
+        }
+      .sticky{
+        width: 150px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+        background-color: #00bb2d;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 20px;
+        margin-left:85%;
+        
+        .stickyName{
+            font-size: 14px;
+            color: white;
+            font-weight:bold;
+          
+        }
+        .stickyIcon{
+            font-size: 20px;
+            color: white;
+           margin-top: 5px;
+            
+        }
+      }
         .rodape{
             background-color:#363636;
             border: solid;

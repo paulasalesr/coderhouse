@@ -211,6 +211,21 @@
     font-style: italic;
     font-size: 12px;
     color: black; }
+  .stickyMobile {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 89%; }
+    .stickyMobile .stickyIcon {
+      font-size: 20px;
+      color: white; }
   .rodape {
     background-color: #363636;
     border: solid; }
@@ -496,6 +511,28 @@
     font-style: italic;
     font-size: 12px;
     color: black; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 80%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
   .rodape {
     background-color: #363636;
     border: solid; }
@@ -808,6 +845,28 @@
   .artesanais .prato {
     display: flex;
     flex-direction: column; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 78%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
   .rodape {
     background-color: #363636;
     border: solid; }
@@ -967,7 +1026,7 @@
     backdrop-filter: blur(10px);
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 200px; }
+    margin-left: 150px; }
   .preco {
     margin-right: 10%;
     display: flex;
@@ -1008,7 +1067,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     margin-bottom: 30px;
-    margin-left: 200px; }
+    margin-left: 150px; }
   .container .sandubas {
     height: 700px;
     width: 70%;
@@ -1020,7 +1079,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     margin-bottom: 30px;
-    margin-left: 200px; }
+    margin-left: 150px; }
   .bebidas {
     height: 680px;
     display: grid;
@@ -1118,6 +1177,28 @@
   .artesanais .prato {
     display: flex;
     flex-direction: column; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 85%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
   .rodape {
     background-color: #363636;
     border: solid; }
