@@ -1,51 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-@media screen and (max-width:576px){
-    section{
+
+@media screen and (max-width:576px) {
+    section {
         width: 100%;
-        height:2700px;
+
         background-image: url(../../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
-    .menuTablet{
+
+    .menuTablet {
         display: none;
     }
 
-    .Menu{
-    
+    .Menu {
+
         padding-top: 7%;
         text-align: center;
     }
-    .logo{
+
+    .logo {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-      
-      
+
+
     }
-    .menu-icon{
+
+    .menu-icon {
         margin-right: 7%;
         margin-top: 5%;
     }
-    .logoCoderPoint{
+
+    .logoCoderPoint {
         margin-left: 10%;
         width: 300px;
         padding: 5%;
-        
+
 
     }
-    .menu-icon{
+
+    .menu-icon {
         color: #D6C6B7;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:space-around;
+        justify-content: space-around;
         margin-right: 60px;
         font-size: 30px;
         font-weight: 600;
@@ -57,55 +63,58 @@
         cursor: pointer;
         z-index: 1001;
     }
-    .menu-icon:hover{
+
+    .menu-icon:hover {
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
-        color:#F8F4E9
+        color: #F8F4E9
+    }
+
+    .menu-icon .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 30%;
+        height: auto;
+
+
 
     }
-       .menu-icon .dropdown-menu{
-            background-color:  rgba(255, 255, 255, 0.1);
-            width: 30%;
-            height: auto;
-            
-          
-         
-        }
-      
-        .dropdown-menu .dropdown-item{
-            color:#F8F4E9;
-            font-size: 16px;
-            font-weight: 400;
-            margin: 15px;
-            border-bottom: none;
-            border-left: 2px solid #D8A566;
-            text-align: left;
-            display: block;
-            
-        }
-        .dropdown-menu .dropdown-item:hover{
-            border-bottom: none;
-            background: #D8A566; 
-            transition: .4s;
-            color: #D8A566;
-        }
-        
-   
-    .background .Social{
+
+    .dropdown-menu .dropdown-item {
+        color: #F8F4E9;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 15px;
+        border-bottom: none;
+        border-left: 2px solid #D8A566;
+        text-align: left;
+        display: block;
+
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        border-bottom: none;
+        background: #D8A566;
+        transition: .4s;
+        color: #D8A566;
+    }
+
+
+    .background .Social {
         display: none;
     }
-    
-    .socialMobile{
+
+    .socialMobile {
         display: flex;
         flex-direction: row;
         gap: 5%;
         justify-content: center;
         align-content: center;
-    
+
     }
-    .socialMobile a{
-      
+
+    .socialMobile a {
+
         width: 37px;
         height: 37px;
         border-radius: 50%;
@@ -119,265 +128,278 @@
         margin-top: 10px;
         text-decoration: none;
     }
-    
-    .socialMobile a:hover{
+
+    .socialMobile a:hover {
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
-    .socialMobile{
+
+    .socialMobile {
         display: none;
     }
-       
-    .NavList{
-       display: none;
+
+    .NavList {
+        display: none;
     }
 
-    .NavList .NavContent{
+    .NavList .NavContent {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 10%;
     }
-    .NavItem{
-        
+
+    .NavItem {
+
         list-style: none;
     }
-    .item{
+
+    .item {
         text-decoration: none;
         color: white;
         font-size: 11px;
     }
-    .item:hover{
-        color:#D8A566;
-        transition: color  .4s;
-      
-    }
-    .container{
-   height: 2700px;
-        margin-top: 10px
-        
-        
-    }
-    .container .entrada{
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-        
-        
-    }
-    .container .petiscos{
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-      
-    }
-    .container .bebidas{
-        height: auto;
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-        
-    }
-    .bebidas .semAlcool{
-        
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-        
-        
-    }
-    .semAlcool .pratos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 5%;
-        
-    }
-    .pratoStrogo{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-    .pratos .pratoItem{
-        margin-left: 5%;
-    }
-    .pratos .preco{
-        margin-right: 5%;
-        
-    }
-    
-   
-    .bebidas .cervejas{
-        
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-       
-    }
-    .cervejas .pratos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 5%;
-    }
-    .bebidas .artesanais{
-        
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-        
-    }
-    .artesanais .titleBebidasItem{
-        text-align: start;
-    }
-    .artesanais .artesanaisItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+
+    .item:hover {
+        color: #D8A566;
+        transition: color .4s;
+
     }
 
-    .bebidas .drink{
-      
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-    }
-    .drink .titleBebidasItem{
-        text-align: start;
-    }
-    .drink .caipiraItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .drink .dosesItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .container .sandubas{
-        
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-    }
-    .htres{
-        font-size: 16px;
-        color: black;
-    }
-    .hcinco{
-        font-style: italic;
-        font-size: 12px;
-      color:black;
-    }
-    .stickyMobile{
-        width: 50px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       justify-content: center;
-        background-color: #00bb2d;
-        border-radius: 100px;
-        position: fixed;
-        bottom: 20px;
-        margin-left:89%;
-        
-        .stickyIcon{
-            font-size: 20px;
-            color: white;
-            
+    .container {
+
+        margin-top: 10px;
+
+        .cardapio {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+
+            .cardapioTitle {
+                color: #D8A566;
+            }
         }
-      }
-    .rodape{
-        background-color:#363636;
-        border: solid;
-        
-        .rodapeContent{
-         display: flex;
-        flex-direction:column;
+
+
+        .entrada {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 5px;
+
+        }
+
+        .pratos {
+            .pratoContent {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+
+                .pratoItem {
+                    margin-left: 5%;
+
+                    .pratos .preco {
+                        margin-right: 5%;
+
+                    }
+                }
+            }
+
+        }
+
+        .petiscos {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+
+        }
+
+        .cardapioBebidas {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+
+            .cardapioBebidasTitle {
+                color: #D8A566;
+            }
+        }
+        .sandubas {
+
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .bebidas {
+            height: auto;
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 2%;
+          
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+
+            .bebidasContent {
+                padding: 10px;
+
+                .bebidasTitle {
+                    font-size: 30px;
+                    margin-bottom: 50px;
+
+                }
+               
+                .bebidasItemTitle {
+                    font-size: 20px;
+                    text-align: start;
+                    margin-bottom: 20px;
+                    color: #30210f;
+
+                }
+                .bebidasItemdescripton{
+                   
+                    border: solid;
+                }
+            
+                
+            }
+                 
+
+        }
+
+
+    }
+
+}
+
+.htres {
+    font-size: 16px;
+    color: black;
+}
+
+.hcinco {
+    font-style: italic;
+    font-size: 12px;
+    color: black;
+}
+
+.sticky {
+    display: none;
+}
+
+.stickyMobile {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 89%;
+
+    .stickyIcon {
+        font-size: 20px;
+        color: white;
+
+    }
+}
+
+.rodape {
+    background-color: #363636;
+    border: solid;
+  
+
+    .rodapeContent {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         gap: 30px;
         padding: 30px;
         margin-top: 20px;
-       
+
+
+    }
+
+    .adressTablet {
+        display: none;
+    }
+
+    .adress {
+
+        .adressTitle {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+
+        .adressItem {
+            font-size: 14px;
+            font-weight: 200;
+            color: white;
+            text-decoration: none;
 
         }
-        .adressTablet{
-            display: none;
+
+        .adressItem:hover {
+            color: #D8A566;
+            cursor: pointer;
         }
-    
-        .adress{
-        
-            .adressTitle{
-                font-size: 18px;
-                font-weight: bold;
-                color:white;
-                text-align: center;
-            }
-            .adressItem{
-                font-size: 14px;
-                font-weight:200;
-                color:white;
-                text-decoration: none;
-               
-            }
-            .adressItem:hover{
-                color:#D8A566;
-                cursor: pointer;
-            }
-     
-            }
-            .expediente{
-                margin-top: 2px;
-                .expedienteTitle{
-                    color: white;
-                    font-size: 18px;
-                    font-weight: bold;
-                    height: 60px;
-                    margin-top: 0px;
-                   
-                }
-                .expedienteContent{
-                    padding: 0;
-                     
-                 }
-                .expedienteItem{
-                    color:white;
-                    font-size: 14px;
-                    font-weight: 100;
-                    
-                }
-                
-            }
-     .redes{
-  
+
+    }
+
+    .expediente {
+        margin-top: 2px;
+
+        .expedienteTitle {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            height: 60px;
+            margin-top: 0px;
+
+        }
+
+        .expedienteContent {
+            padding: 0;
+
+        }
+
+        .expedienteItem {
+            color: white;
+            font-size: 14px;
+            font-weight: 100;
+
+        }
+
+    }
+
+    .redes {
+
         height: 300px;
         width: 30%;
         display: flex;
@@ -386,13 +408,14 @@
         gap: 5px;
         margin-top: 30px;
 
-        .redesSocialTitle{
+        .redesSocialTitle {
             font-size: 18px;
             color: white;
             width: 300px;
             text-align: center;
         }
-        .redesSocialLogo{
+
+        .redesSocialLogo {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -400,14 +423,15 @@
             gap: 20px;
 
         }
-        .redesSocialIcon{
-            color:#D8A566;
+
+        .redesSocialIcon {
+            color: #D8A566;
             font-size: 20px;
             font-style: normal;
             text-decoration: none;
         }
-        
-        .redesSocialContent{
+
+        .redesSocialContent {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
@@ -415,72 +439,80 @@
             padding: 20px;
 
         }
-        .redesSocialItem{
+
+        .redesSocialItem {
             width: 150px;
             height: 100px;
-           
-        }
-          
-     }   
-   
-        
-    }
-    .rodapeEnd{
-        background-color: black;
 
-        .rodapeEndLink{
-            text-decoration: none;
         }
-        .rodapeEndLogo{
-            width: 130px;
-            padding: 20px;
-        }
+
     }
-    
+
+
 }
 
-@media screen and (min-width:577px ) and (max-width:768px ){
+.rodapeEnd {
+    background-color: black;
 
-    section{
+    .rodapeEndLink {
+        text-decoration: none;
+    }
+
+    .rodapeEndLogo {
+        width: 130px;
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    section {
         width: 100%;
-        height:2800px;
+     
         background-image: url(../../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
-    .menuTablet{
+
+    .menuTablet {
         display: none;
     }
 
-    .Menu{
-   
+    .Menu {
+
         padding-top: 7%;
         text-align: center;
     }
-    .logo{
+
+    .logo {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-       
-      
+
+
     }
-    .menu-icon{
+
+    .menu-icon {
         margin-right: 7%;
         margin-top: 5%;
     }
-    .logoCoderPoint{
+
+    .logoCoderPoint {
         margin-left: 10%;
         width: 300px;
         padding: 5%;
-        
+
 
     }
-    .menu-icon{
+
+    .menu-icon {
         color: #D6C6B7;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content:space-around;
+        justify-content: space-around;
         margin-right: 60px;
         font-size: 30px;
         font-weight: 600;
@@ -492,58 +524,62 @@
         cursor: pointer;
         z-index: 1001;
     }
-    .menu-icon:hover{
+
+    .menu-icon:hover {
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
-        color:#F8F4E9
+        color: #F8F4E9
+    }
+
+    .menu-icon .dropdown-menu {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 30%;
+        height: auto;
+
+
 
     }
-       .menu-icon .dropdown-menu{
-            background-color:  rgba(255, 255, 255, 0.1);
-            width: 30%;
-            height: auto;
-            
-          
-         
-        }
-      
-        .dropdown-menu .dropdown-item{
-            color:#F8F4E9;
-            font-size: 16px;
-            font-weight: 400;
-            margin: 15px;
-            border-bottom: none;
-            border-left: 2px solid #D8A566;
-            text-align: left;
-            display: block;
-            
-        }
-        .dropdown-menu .dropdown-item:hover{
-            border-bottom: none;
-            background: #D8A566; 
-            transition: .4s;
-            color: #D8A566;
-        }
-        
-   
-    .background .Social{
+
+    .dropdown-menu .dropdown-item {
+        color: #F8F4E9;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 15px;
+        border-bottom: none;
+        border-left: 2px solid #D8A566;
+        text-align: left;
+        display: block;
+
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        border-bottom: none;
+        background: #D8A566;
+        transition: .4s;
+        color: #D8A566;
+    }
+
+
+    .background .Social {
         display: none;
     }
-    .socialMobile{
+
+    .socialMobile {
         display: flex;
         flex-direction: row;
         gap: 5%;
-       justify-content:center;
-     margin-top: 10px;
+        justify-content: center;
+        margin-top: 10px;
         height: 100px;
-        
-     
-        
-    
+
+
+
+
     }
-    .socialMobile a{
-      
+
+    .socialMobile a {
+
         width: 37px;
         height: 37px;
         border-radius: 50%;
@@ -557,403 +593,428 @@
         margin-top: 50px;
         text-decoration: none;
     }
-    
-    .socialMobile a:hover{
+
+    .socialMobile a:hover {
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
-    .socialMobile{
+
+    .socialMobile {
         display: none;
     }
-       
-    .NavList{
-       display: none;
+
+    .NavList {
+        display: none;
     }
 
-    .NavList .NavContent{
+    .NavList .NavContent {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 10%;
     }
-    .NavItem{
-        
+
+    .NavItem {
+
         list-style: none;
     }
-    .item{
+
+    .item {
         text-decoration: none;
         color: white;
         font-size: 11px;
     }
-    .item:hover{
-        color:#D8A566;
-        transition: color  .4s;
-      
-    }
-    
-    .container .entrada{
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-        
-        
-    }
-    .container .petiscos{
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-      
-    }
-    .container .bebidas{
-        height: auto;
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-        
-    }
-    .bebidas .semAlcool{
-        
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-        
-        
-    }
-    .semAlcool .pratos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 5%;
-        
-    }
-    .pratos .pratoItem{
-        margin-left: 5%;
-    }
-    .pratos .preco{
-        margin-right: 5%;
-        
-    }
-    .pratoStrogo{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-   
-    .bebidas .cervejas{
-        
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-       
-    }
-    .cervejas .pratos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 5%;
-    }
-    .bebidas .artesanais{
-        
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: gray;
-        backdrop-filter: blur(20px);
-        
-    }
-    .artesanais .titleBebidasItem{
-        text-align: start;
-    }
-    .artesanais .artesanaisItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+
+    .item:hover {
+        color: #D8A566;
+        transition: color .4s;
+
     }
 
-    .bebidas .drink{
-      
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: gray;
-        backdrop-filter: blur(20px);
+    .container {
+
+        margin-top: 10px;
+
+        .cardapio {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+
+            .cardapioTitle {
+                color: #D8A566;
+            }
+        }
+
+
+        .entrada {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 5px;
+
+        }
+
+        .pratos {
+            .pratoContent {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+
+                .pratoItem {
+                    margin-left: 5%;
+
+                    .pratos .preco {
+                        margin-right: 5%;
+
+                    }
+                }
+            }
+
+        }
+
+        .petiscos {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+
+        }
+
+        .cardapioBebidas {
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            width: 80%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+
+            .cardapioBebidasTitle {
+                color: #D8A566;
+            }
+        }
+        .sandubas {
+
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .bebidas {
+            height: auto;
+            text-align: center;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 2%;
+          
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+
+            .bebidasContent {
+                padding: 10px;
+
+                .bebidasTitle {
+                    font-size: 30px;
+                    margin-bottom: 50px;
+
+                }
+               
+                .bebidasItemTitle {
+                    font-size: 20px;
+                    text-align: start;
+                    margin-bottom: 20px;
+                    color: #30210f;
+
+                }
+                .bebidasItemdescripton{
+                   
+                    border: solid;
+                }
+            
+                
+            }
+                 
+
+        }
+
+
     }
-    .drink .titleBebidasItem{
-        text-align: start;
-    }
-    .drink .caipiraItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .drink .dosesItem{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .container .sandubas{
-        
-        text-align: center;
-        padding: 10px;
-        margin-left: 10%;
-        margin-top: 5%;
-       width: 80%;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-    }
-    .htres{
+    .htres {
         font-size: 16px;
         color: black;
     }
-    .hcinco{
+
+    .hcinco {
         font-style: italic;
         font-size: 12px;
-      color:black;
+        color: black;
     }
-    .stickyMobile{
+
+    .stickyMobile {
         display: none;
     }
-    .sticky{
+
+    .sticky {
         width: 150px;
         height: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
-       justify-content: center;
+        justify-content: center;
         background-color: #00bb2d;
         border-radius: 25px;
         position: fixed;
         bottom: 20px;
-        margin-left:80%;
-        
-        .stickyName{
+        margin-left: 80%;
+
+        .stickyName {
             font-size: 14px;
             color: white;
-            font-weight:bold;
-          
+            font-weight: bold;
+
         }
-        .stickyIcon{
+
+        .stickyIcon {
             font-size: 20px;
             color: white;
-           margin-top: 5px;
-            
-        }
-      }
-    .rodape{
-        background-color:#363636;
-        border: solid;
-        
-        .rodapeContent{
-         display: flex;
-        flex-direction:column;
-        align-items: center;
-        justify-content: space-around;
-        gap: 30px;
-        padding: 30px;
-        margin-top: 20px;
-       
+            margin-top: 5px;
 
         }
-        .adressTablet{
+    }
+
+    .rodape {
+        background-color: #363636;
+        border: solid;
+
+        .rodapeContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: 30px;
+            padding: 30px;
+            margin-top: 20px;
+
+
+        }
+
+        .adressTablet {
             display: none;
         }
-    
-        .adress{
-        
-            .adressTitle{
+
+        .adress {
+
+            .adressTitle {
                 font-size: 18px;
                 font-weight: bold;
-                color:white;
+                color: white;
                 text-align: center;
             }
-            .adressItem{
+
+            .adressItem {
                 font-size: 14px;
-                font-weight:200;
-                color:white;
+                font-weight: 200;
+                color: white;
                 text-decoration: none;
-               
+
             }
-            .adressItem:hover{
-                color:#D8A566;
+
+            .adressItem:hover {
+                color: #D8A566;
                 cursor: pointer;
             }
-     
+
+        }
+
+        .expediente {
+            margin-top: 2px;
+
+            .expedienteTitle {
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                height: 60px;
+                margin-top: 0px;
+
             }
-            .expediente{
-                margin-top: 2px;
-                .expedienteTitle{
-                    color: white;
-                    font-size: 18px;
-                    font-weight: bold;
-                    height: 60px;
-                    margin-top: 0px;
-                   
-                }
-                .expedienteContent{
-                    padding: 0;
-                     
-                 }
-                .expedienteItem{
-                    color:white;
-                    font-size: 14px;
-                    font-weight: 100;
-                    
-                }
-                
+
+            .expedienteContent {
+                padding: 0;
+
             }
-     .redes{
-  
-        height: 300px;
-        width: 30%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-        margin-top: 30px;
-       .redesSocialTitle{
-        font-size: 18px;
-        color: white;
-        width: 200px;
-        text-align: center;
-       }
-        .redesSocialLogo{
+
+            .expedienteItem {
+                color: white;
+                font-size: 14px;
+                font-weight: 100;
+
+            }
+
+        }
+
+        .redes {
+
+            height: 300px;
+            width: 30%;
             display: flex;
-            flex-direction: row;
             align-items: center;
-            justify-content: center;
-            gap: 20px;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 30px;
+
+            .redesSocialTitle {
+                font-size: 18px;
+                color: white;
+                width: 200px;
+                text-align: center;
+            }
+
+            .redesSocialLogo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+            }
+
+            .redesSocialIcon {
+                color: #D8A566;
+                font-size: 20px;
+                font-style: normal;
+                text-decoration: none;
+            }
+
+
+            .redesSocialContent {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 8px;
+                padding: 20px;
+
+            }
+
+            .redesSocialItem {
+                width: 150px;
+                height: 100px;
+
+            }
 
         }
-        .redesSocialIcon{
-            color:#D8A566;
-            font-size: 20px;
-            font-style: normal;
-            text-decoration: none;
-        }
 
-        
-        .redesSocialContent{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 8px;
-            padding: 20px;
 
-        }
-        .redesSocialItem{
-            width: 150px;
-            height: 100px;
-           
-        }
-          
-     }   
-   
-        
     }
-    .rodapeEnd{
+
+    .rodapeEnd {
         background-color: black;
 
-        .rodapeEndLink{
+        .rodapeEndLink {
             text-decoration: none;
         }
-        .rodapeEndLogo{
+
+        .rodapeEndLogo {
             width: 130px;
             padding: 20px;
         }
     }
- 
+
 }
 
 
 
-    
+
 @media screen and (min-width:769px) and (max-width:992px) {
-    section{
+    section {
         width: 100%;
-        height:2800px;
         background-image: url(../../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
-    .socialMobile{
+
+    .socialMobile {
         display: none;
     }
-    .Menu{
+
+    .Menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-   
-    .menu-icon{
+
+
+    .menu-icon {
         display: none;
     }
-  
-    .logoCoderPoint{
+
+    .logoCoderPoint {
         width: 300px;
         padding: 5%;
-       padding: 20px;
+        padding: 20px;
 
     }
-    .Menu .Social{
-    
+
+    .Menu .Social {
+
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 5%;
         margin-right: 50px;
-      
-    
+
+
     }
-    .Menu .NavList{
+
+    .Menu .NavList {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 50px; 
-       
+        gap: 50px;
+
     }
-    
-    .NavList .NavContent{
+
+    .NavList .NavContent {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 50px; 
+        gap: 50px;
         margin-top: 5%;
     }
-    .NavList .NavItem{
+
+    .NavList .NavItem {
         list-style: none;
-    
+
     }
-    .NavList .item{
+
+    .NavList .item {
         text-decoration: none;
         color: white;
         font-size: 14px;
     }
-    
-     .item:hover{
-        color:#D8A566;
-        transition: color  .4s;
-      
+
+    .item:hover {
+        color: #D8A566;
+        transition: color .4s;
+
     }
-    .Social a{
+
+    .Social a {
         width: 37px;
         height: 37px;
         border-radius: 50%;
@@ -967,36 +1028,152 @@
         margin-top: 50px;
         text-decoration: none;
     }
-    
-    .Social a:hover{
+
+    .Social a:hover {
         transform: scale(1.1);
         background: #D8A566;
         transition: .4s;
     }
-    .container{
+
+    .container {
         width: 100%;
-      
-       
-     
+
+
+
     }
 
-    .container .entrada{
-        width: 90%;
-        height: 950px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       box-sizing: border-box;
-       border-left: 2px solid white;
-       border-bottom: 2px solid white;
-       background-color: rgba(255, 255, 255, 0.5);
-       backdrop-filter: blur(10px);
-       margin-bottom: 30px;
-       margin-top: 30px;
-       margin-left: 40px;
+    .container {
+        
+        .cardapio {
+            width:630px;
+            margin-left: 40px;
+         
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+
+            .cardapioTitle {
+                color: #D8A566;
+             
+            }
+        }
+        .entrada {
+            width: 90%;
+            height: 950px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-left: 40px;
+            .entradaContent{
+                text-align: center;
+            }
     
+        }
+        .petiscos {
+
+            width: 90%;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+            margin-left: 40px;
+            .petiscoContent{
+                text-align: center;
+            }
+    
+    
+        }
+        .sandubas {
+            
+            height: 700px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-left: 300px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+            .sandubasContent{
+                text-align: center;
+            }
+        }
+        .cardapioBebidas {
+            text-align: center;
+            padding: 10px;
+            margin-left: 5%;
+            width: 630px;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+
+            .cardapioBebidasTitle {
+                color: #D8A566;
+                margin-top: 20px;
+            }
+        }
+        .bebidas {
+            height: auto;
+            text-align: center;
+            padding: 10px;
+            margin-left: 5%;
+            margin-top: 2%;
+            width: 90%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+
+            .bebidasContent {
+                padding: 10px;
+
+                .bebidasTitle {
+                    font-size: 30px;
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+
+                }
+              
+                .bebidasItemType{
+                    text-align: center;
+                   margin-left: 20px;
+                }
+               
+                .bebidasItemTitle {
+                    font-size: 20px;
+                    text-align: start;
+                    margin-bottom: 20px;
+                    color: #30210f;
+
+                }
+                .bebidasItemdescripton{
+                   
+                    border: solid;
+                }
+            
+                
+            }
+                 
+
+        }
+
     }
-     .preco{
+
+    .preco {
         margin-right: 10%;
         display: flex;
         flex-direction: row;
@@ -1005,351 +1182,225 @@
         gap: 60px;
         color: black;
     }
-    .pratoStrogo{
+
+    .pratoContent {
         width: 100px;
         height: 100px;
         border-radius: 50%;
     }
-    .htres{
+
+    .htres {
         font-size: 16px;
         color: black;
         margin-top: 30px;
     }
-    .hcinco{
+
+    .hcinco {
         font-style: italic;
         font-size: 12px;
-      color:black;
-    
-      ;
+        color: black;
+
+        ;
     }
-    .valor{
+
+    .valor {
         color: #7b4504;
     }
-    .nomePrato{
+
+    .nomePrato {
         font-weight: 800;
     }
-    
-    .container .hum{
+
+    .container .hum {
         height: 30px;
         margin-left: 10px;
         color: black;
         text-align: center;
-  
-        
-    }
-    .container .petiscos{
-        width: 90%;
-        height: 850px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-        background-color: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(10px);
-        margin-bottom: 30px;
-        margin-left: 40px;
-       
-  
-    }
-   
-    
-    .container .sandubas{
-        height: 700px;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-       justify-content: center;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-        background-color: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(10px);
-        margin-left: 300px;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
-   
-     .bebidas{
-        
-        height: 680px;
-        display: grid;
-        grid-template-areas: 
-        "bebidas bebidas "
-        "cerveja artesanais "
-        "semalcool drink";
-        grid-template-columns:  1fr 1fr;
-        grid-template-rows:50px 1fr 1fr;
-        gap: 5%;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-        background-color: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(10px);
-        margin-bottom: 30px;
-        margin-top: 60px;
-        margin-left: 300px;
-        
-    }
-    .bebidas .bebidasTitle{
-    grid-area: bebidas;
-    color: white;
 
-    
+
     }
-   
-    .bebidas .semAlcool{
-        grid-area:semalcool;
-        display: flex;
-        flex-direction: column;
-        gap: 2%;
-        box-sizing: border-box;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-    
-    }
-    .semAlcool .preco{
-        margin-right: 10%;
-        font-size: 14px;
-    }
-     .titleBebidas{
-        color: black;
-        margin-left: 10px;
-        font-size: 25px;
-    }
-    .titleBebidasItem{
-        margin-left: 10px;
-        font-size: 20px;
-    }
-    .bebidas .cervejas{
-        grid-area: cerveja;
-      
-        display: flex;
-        flex-direction: column;
-        gap: 2%;
-        box-sizing: border-box;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-        
-    }
-    .cervejas .preco{
-        margin-right: 10%;
-        font-size: 14px;
-    }
-    .bebidas .artesanais{
-        grid-area: artesanais;
-       
-        display: flex;
-        flex-direction: column;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-    }
-    
-    .artesanais .artesanaisItem{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-       
-    }
-    .artesanaisItem .preco{
-        margin-right: 20%;
-        font-size: 16px;
-    }
-    .artesanais .pratoItem{
-        width: 100%;
-    }
-    .bebidas .drink{
-        grid-area: drink;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        border-left: 2px solid white;
-        border-bottom: 2px solid white;
-        
-    }
-    .drink .caipiraItem{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    
-    }
-    .drink .preco{
-        margin-right: 20%;
-        font-size: 16px;
-    }
-    .drink .dosesItem{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-       
-    }
-    .drink .pratoItem{
-        width: 100%;
-    }
-    .pratos{
+
+    .pratos {
         display: flex;
         flex-direction: row;
         gap: 20px;
         width: 100%;
         color: black;
-         box-sizing: border-box;  
-         margin-left: 30px;    
-         margin-top: 30px;
+        box-sizing: border-box;
+        margin-left: 30px;
+        margin-top: 30px;
     }
-    .pratoItem{
+
+    .pratoItem {
         margin-top: 0px;
     }
-    
-    .artesanais .prato{
+
+    .artesanais .prato {
         display: flex;
         flex-direction: column;
     }
-    .stickyMobile{
+
+    .stickyMobile {
         display: none;
     }
-    .sticky{
+
+    .sticky {
         width: 150px;
         height: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
-       justify-content: center;
+        justify-content: center;
         background-color: #00bb2d;
         border-radius: 25px;
         position: fixed;
         bottom: 20px;
-        margin-left:78%;
-        
-        .stickyName{
+        margin-left: 78%;
+
+        .stickyName {
             font-size: 14px;
             color: white;
-            font-weight:bold;
-          
+            font-weight: bold;
+
         }
-        .stickyIcon{
+
+        .stickyIcon {
             font-size: 20px;
             color: white;
-           margin-top: 5px;
-            
-        }
-      }
-    .rodape{
-        background-color:#363636;
-        border: solid;
-        
-        .rodapeContent{
-         display: flex;
-        flex-direction:row;
-        align-items: center;
-        justify-content: space-around;
-        padding: 10px;
-       
+            margin-top: 5px;
 
         }
-        .adress{
-            display:none
+    }
+
+    .rodape {
+        background-color: #363636;
+        border: solid;
+
+        .rodapeContent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+
+
         }
-    
-        .adressTablet{
-        
-            .adressTitleTablet{
+
+        .adress {
+            display: none
+        }
+
+        .adressTablet {
+
+            .adressTitleTablet {
                 font-size: 16px;
                 font-weight: bold;
-                color:white;
+                color: white;
             }
-            .adressItemTablet{
+
+            .adressItemTablet {
                 font-size: 16px;
-                font-weight:200;
-                color:white;
+                font-weight: 200;
+                color: white;
                 text-decoration: none;
-               
+
             }
-            .adressItemTablet:hover{
-                color:#D8A566;
+
+            .adressItemTablet:hover {
+                color: #D8A566;
                 cursor: pointer;
             }
-     
-            }
-            .expediente{
-                margin-top: 2px;
-                .expedienteTitle{
-                    color: white;
-                    font-size: 16px;
-                    font-weight: bold;
-                    height: 60px;
-                    margin-top: 0px;
-                   
-                }
-                .expedienteContent{
-                    padding: 0;
-                     
-                 }
-                .expedienteItem{
-                    color:white;
-                    font-size: 16px;
-                    font-weight: 100;
-                    list-style: none;
-                    
-                }
-                
-            }
-     .redes{
-  
-        height: 300px;
-        width: 30%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-        margin-top: 30px;
-  
 
-        .redesSocialTitle{
-            font-size: 18px;
-            color: white;
-            width: 200px;
-            text-align: center;
-           }
-            .redesSocialLogo{
+        }
+
+        .expediente {
+            margin-top: 2px;
+
+            .expedienteTitle {
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                height: 60px;
+                margin-top: 0px;
+
+            }
+
+            .expedienteContent {
+                padding: 0;
+
+            }
+
+            .expedienteItem {
+                color: white;
+                font-size: 16px;
+                font-weight: 100;
+                list-style: none;
+
+            }
+
+        }
+
+        .redes {
+
+            height: 300px;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 30px;
+
+
+            .redesSocialTitle {
+                font-size: 18px;
+                color: white;
+                width: 200px;
+                text-align: center;
+            }
+
+            .redesSocialLogo {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
                 gap: 20px;
-    
+
             }
-            .redesSocialIcon{
-                color:#D8A566;
+
+            .redesSocialIcon {
+                color: #D8A566;
                 font-size: 20px;
                 font-style: normal;
                 text-decoration: none;
             }
-    
-        .redesSocialContent{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 8px;
-            padding: 20px;
+
+            .redesSocialContent {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 8px;
+                padding: 20px;
+
+            }
+
+            .redesSocialItem {
+                width: 130px;
+                height: 80px;
+
+            }
 
         }
-        .redesSocialItem{
-            width: 130px;
-            height: 80px;
-           
-        }
-        
-     }   
-        
+
     }
-    .rodapeEnd{
+
+    .rodapeEnd {
         background-color: black;
 
-        .rodapeEndLink{
+        .rodapeEndLink {
             text-decoration: none;
         }
-        .rodapeEndLogo{
+
+        .rodapeEndLogo {
             width: 130px;
             padding: 20px;
         }
@@ -1357,169 +1408,148 @@
 
 }
 
-    @media screen  and (min-width:992px) {
+@media screen and (min-width:992px) {
 
-    
-        section{
-            width: 100%;
-            height:2800px;
-            background-image: url(../../imagens/fundo.jpg);
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        .socialMobile{
-            display: none;
-        }
-        .menuTablet{
-            display: none;
-        }
-      
-      
-        .Menu{
-            display:flex;
-            flex-direction: row;
-            justify-content: space-between;
-           align-items: center;
-           padding: 30px;
-         
-        }
-        
-        .menu-icon{
-            display: none;
-        }
-      
-        .logoCoderPoint{
-            margin-left: 30%;
-            width: 300px;
-           
 
-        }
-   
-        .Menu .Social{
-        
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 5%;
-          
-          
-        
-        }
-        .Menu .NavList{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 50px; 
-           
-        }
-        
-        .NavList .NavContent{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 50px; 
-            margin-top: 5%;
-            margin-right: 30%;
-        }
-        .NavList .NavItem{
-            list-style: none;
-        
-        }
-        .NavList .item{
-            text-decoration: none;
-            color: white;
-            font-size: 14px;
-        }
-        
-         .item:hover{
-            color:#D8A566;
-            transition: color  .4s;
-          
-        }
-        .Social a{
-            width: 37px;
-            height: 37px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 17px;
-            color: #F8F4E9;
-            cursor: pointer;
-            background-color: rgba(255, 255, 255, 0.1);
-            margin-top: 50px;
-            text-decoration: none;
-        }
-        
-        .Social a:hover{
-            transform: scale(1.1);
-            background: #D8A566;
-            transition: .4s;
-        }
-        .container{
-            width: 100%;
-           
+    section {
+        width: 100%;
+      
+        background-image: url(../../imagens/fundo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
+    .socialMobile {
+        display: none;
+    }
+
+    .menuTablet {
+        display: none;
+    }
+
+
+    .Menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logoCoderPoint {
+        margin-left: 30%;
+        width: 300px;
+
+
+    }
+
+    .Menu .Social {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+
+
+
+    }
+
+    .Menu .NavList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+
+    }
+
+    .NavList .NavContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 5%;
+        margin-right: 30%;
+    }
+
+    .NavList .NavItem {
+        list-style: none;
+
+    }
+
+    .NavList .item {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .item:hover {
+        color: #D8A566;
+        transition: color .4s;
+
+    }
+
+    .Social a {
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        text-decoration: none;
+    }
+
+    .Social a:hover {
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+
+    .container {
+      
+        .cardapio {
+        
+            text-align: center;
+            padding: 10px;
+           margin-left: 150px;
+            width: 70%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+
+            .cardapioTitle {
+                color: #D8A566;
+            }
         }
- 
-        .container .entrada{
+        .entrada {
             width: 70%;
             height: 950px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-           box-sizing: border-box;
-           border-left: 2px solid white;
-           border-bottom: 2px solid white;
-           background-color: rgba(255, 255, 255, 0.5);
-           backdrop-filter: blur(10px);
-           margin-bottom: 30px;
-           margin-top: 30px;
-           margin-left: 150px;
-        
-        }
-         .preco{
-            margin-right: 10%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 400px;
-            gap: 60px;
-            color: black;
-        }
-        .pratoStrogo{
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-        }
-        .htres{
-            font-size: 16px;
-            color: black;
+            box-sizing: border-box;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
             margin-top: 30px;
+            margin-left: 150px;
+
+            .entradaContent{
+                text-align: center;
+            }
+    
         }
-        .hcinco{
-            font-style: italic;
-            font-size: 12px;
-          color:black;
-        
-          ;
-        }
-        .valor{
-            color: #7b4504;
-        }
-        .nomePrato{
-            font-weight: 800;
-        }
-        
-        .container .hum{
-            height: 30px;
-            margin-left: 10px;
-            color: black;
-            text-align: center;
-      
-            
-        }
-        .container .petiscos{
+        .petiscos {
             width: 70%;
             height: 850px;
             display: flex;
@@ -1531,252 +1561,245 @@
             backdrop-filter: blur(10px);
             margin-bottom: 30px;
             margin-left: 150px;
-           
-      
+
+            .petiscoContent{
+                text-align: center;
+            }
+    
+    
         }
-       
-        
-        .container .sandubas{
+        .sandubas {
             height: 700px;
             width: 70%;
             display: flex;
             flex-direction: column;
-           justify-content: center;
+            justify-content: center;
             border-left: 2px solid white;
             border-bottom: 2px solid white;
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
-          
+    
             margin-bottom: 30px;
             margin-left: 150px;
+            .sandubasContent{
+                text-align: center;
+            }
         }
-       
-         .bebidas{
-            
-            height: 680px;
-            display: grid;
-            grid-template-areas: 
-            "bebidas bebidas "
-            "cerveja artesanais "
-            "semalcool drink";
-            grid-template-columns:  1fr 1fr;
-            grid-template-rows:50px 1fr 1fr;
-            gap: 5%;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
+        .cardapioBebidas {
+            text-align: center;
+            padding: 10px;
+            margin-left: 15%;
+            width: 70%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+
+            .cardapioBebidasTitle {
+                color: #D8A566;
+            }
+        }
+        .bebidas {
+           
+            text-align: center;
+            padding: 10px;
+            margin-left: 15%;
+            margin-top: 2%; 
+            width: 70%;
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
-            margin-bottom: 30px;
-            margin-top: 60px;
+
+            .bebidasContent {
+                padding: 10px;
+
+                .bebidasTitle {
+                    font-size: 30px;
+                    margin-bottom: 50px;
+
+                }
+               
+                .bebidasItemTitle {
+                    font-size: 20px;
+                    text-align: start;
+                    margin-bottom: 20px;
+                    color: #30210f;
+
+                }
+                .bebidasItemdescripton{
+                   
+                    border: solid;
+                }
             
-            
-        }
-        .bebidas .bebidasTitle{
-        grid-area: bebidas;
-        color: white;
-  
+                
+            }
+    
+
+    }
+
+   
+    .preco {
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 400px;
+        gap: 60px;
+        color: black;
+    }
+
+    .pratoContent {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .htres {
+        font-size: 16px;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .hcinco {
+        font-style: italic;
+        font-size: 12px;
+        color: black;
+
         
-        }
-       
-        .bebidas .semAlcool{
-            grid-area:semalcool;
-            display: flex;
-            flex-direction: column;
-            gap: 2%;
-            box-sizing: border-box;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-        
-        }
-        .semAlcool .preco{
-            margin-right: 10%;
-            font-size: 14px;
-        }
-         .titleBebidas{
-            color: black;
-            margin-left: 10px;
-            font-size: 25px;
-        }
-        .titleBebidasItem{
-            margin-left: 10px;
-            font-size: 20px;
-        }
-        .bebidas .cervejas{
-            grid-area: cerveja;
-          
-            display: flex;
-            flex-direction: column;
-            gap: 2%;
-            box-sizing: border-box;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-            
-        }
-        .cervejas .preco{
-            margin-right: 10%;
-            font-size: 14px;
-        }
-        .bebidas .artesanais{
-            grid-area: artesanais;
-           
-            display: flex;
-            flex-direction: column;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-        }
-        
-        .artesanais .artesanaisItem{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-           
-        }
-        .artesanaisItem .preco{
-            margin-right: 20%;
-            font-size: 16px;
-        }
-        .artesanais .pratoItem{
-            width: 100%;
-        }
-        .bebidas .drink{
-            grid-area: drink;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-            
-        }
-        .drink .caipiraItem{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        
-        }
-        .drink .preco{
-            margin-right: 20%;
-            font-size: 16px;
-        }
-        .drink .dosesItem{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-           
-        }
-        .drink .pratoItem{
-            width: 100%;
-        }
-        .pratos{
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            width: 100%;
-            color: black;
-             box-sizing: border-box;  
-             margin-left: 30px;    
-             margin-top: 30px;
-        }
-        .pratoItem{
-            margin-top: 0px;
-        }
-        
-        .artesanais .prato{
-            display: flex;
-            flex-direction: column;
-        }
-        .stickyMobile{
-            display: none;
-        }
-      .sticky{
+    }
+
+    .valor {
+        color: #7b4504;
+    }
+
+    .nomePrato {
+        font-weight: 800;
+    }
+
+    .container .hum {
+        height: 30px;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+
+
+    }
+
+    .pratos {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        color: black;
+        box-sizing: border-box;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .pratoItem {
+        margin-top: 0px;
+    }
+    }
+
+    .stickyMobile {
+        display: none;
+    }
+
+    .sticky {
         width: 150px;
         height: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
-       justify-content: center;
+        justify-content: center;
         background-color: #00bb2d;
         border-radius: 25px;
         position: fixed;
         bottom: 20px;
-        margin-left:85%;
-        
-        .stickyName{
+        margin-left: 85%;
+
+        .stickyName {
             font-size: 14px;
             color: white;
-            font-weight:bold;
-          
+            font-weight: bold;
+
         }
-        .stickyIcon{
+
+        .stickyIcon {
             font-size: 20px;
             color: white;
-           margin-top: 5px;
-            
+            margin-top: 5px;
+
         }
-      }
-        .rodape{
-            background-color:#363636;
-            border: solid;
-            
-            .rodapeContent{
-             display: flex;
-            flex-direction:row;
+    }
+
+    .rodape {
+        background-color: #363636;
+        border: solid;
+
+        .rodapeContent {
+            display: flex;
+            flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 10px;
-           
+
+
+        }
+
+        .adressTablet {
+            display: none;
+        }
+
+        .adress {
+
+            .adressTitle {
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .adressItem {
+                font-size: 16px;
+                font-weight: 200;
+                color: white;
+                text-decoration: none;
 
             }
-            .adressTablet{
-                display: none;
+
+            .adressItem:hover {
+                color: #D8A566;
+                cursor: pointer;
             }
-        
-            .adress{
-            
-                .adressTitle{
-                    font-size: 18px;
-                    font-weight: bold;
-                    color:white;
-                }
-                .adressItem{
-                    font-size: 16px;
-                    font-weight:200;
-                    color:white;
-                    text-decoration: none;
-                   
-                }
-                .adressItem:hover{
-                    color:#D8A566;
-                    cursor: pointer;
-                }
-         
-                }
-                .expediente{
-                    margin-top: 2px;
-                    .expedienteTitle{
-                        color: white;
-                        font-size: 18px;
-                        font-weight: bold;
-                        height: 60px;
-                        margin-top: 0px;
-                       
-                    }
-                    .expedienteContent{
-                        padding: 0;
-                         
-                     }
-                    .expedienteItem{
-                        color:white;
-                        font-size: 16px;
-                        font-weight: 100;
-                        
-                    }
-                    
-                }
-         .redes{
-      
+
+        }
+
+        .expediente {
+            margin-top: 2px;
+
+            .expedienteTitle {
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                height: 60px;
+                margin-top: 0px;
+
+            }
+
+            .expedienteContent {
+                padding: 0;
+
+            }
+
+            .expedienteItem {
+                color: white;
+                font-size: 16px;
+                font-weight: 100;
+
+            }
+
+        }
+
+        .redes {
+
             height: 300px;
             width: 30%;
             display: flex;
@@ -1784,29 +1807,31 @@
             flex-direction: column;
             gap: 5px;
             margin-top: 30px;
-      
-            .redesSocialTitle{
+
+            .redesSocialTitle {
                 font-size: 18px;
                 color: white;
                 width: 200px;
                 text-align: center;
-               }
-                .redesSocialLogo{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 20px;
-        
-                }
-                .redesSocialIcon{
-                    color:#D8A566;
-                    font-size: 20px;
-                    font-style: normal;
-                    text-decoration: none;
-                }
-        
-            .redesSocialContent{
+            }
+
+            .redesSocialLogo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+            }
+
+            .redesSocialIcon {
+                color: #D8A566;
+                font-size: 20px;
+                font-style: normal;
+                text-decoration: none;
+            }
+
+            .redesSocialContent {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
@@ -1814,26 +1839,29 @@
                 padding: 10px;
 
             }
-            .redesSocialItem{
+
+            .redesSocialItem {
                 width: 140px;
                 height: 90px;
-               
+
             }
-              
-         }   
-       
-            
+
         }
-        .rodapeEnd{
-            background-color: black;
-    
-            .rodapeEndLink{
-                text-decoration: none;
-            }
-            .rodapeEndLogo{
-                width: 130px;
-                padding: 20px;
-            }
+
+
+    }
+
+    .rodapeEnd {
+        background-color: black;
+
+        .rodapeEndLink {
+            text-decoration: none;
         }
-        
+
+        .rodapeEndLogo {
+            width: 130px;
+            padding: 20px;
+        }
+    }
+
 }
