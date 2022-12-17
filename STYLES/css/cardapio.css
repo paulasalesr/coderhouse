@@ -221,8 +221,8 @@
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    padding: 30px;
-    margin-top: 20px; }
+    padding: 20px;
+    margin-top: 10px; }
   .rodape .adressTablet {
     display: none; }
   .rodape .adress .adressTitle {

@@ -69,7 +69,93 @@
       cursor: pointer;
       z-index: 1001;
       display: none; }
-    .container {
-      padding-top: 10px;
-      padding-left: 100px; }
+   .container {
+      padding: 50;
+      width: 50%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px); ; 
+      }
+    
+    .rodape {
+      background-color: #363636;
+      border: solid;
+      margin-top: 35px; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+      padding: 20px;
+      margin-top: 10px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-align: center; }
+    .rodape .adress .adressItem {
+      font-size: 14px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+    .rodape .expediente .expedienteTitle {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      margin-top: 0px; }
+    .rodape .expediente .expedienteContent {
+      padding: 0; }
+    .rodape .expediente .expedienteItem {
+      color: white;
+      font-size: 14px;
+      font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+    .rodape .redes .redesSocialTitle {
+            font-size: 18px;
+            color: white;
+            width: 300px;
+            text-align: center; }
+    .rodape .redes .redesSocialLogo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; }
+    .rodape .redes .redesSocialIcon {
+            color: #D8A566;
+            font-size: 20px;
+            font-style: normal;
+            text-decoration: none; }
+    .rodape .redes .redesSocialContent {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
+            padding: 20px; }
+    .rodape .redes .redesSocialItem {
+            width: 150px;
+            height: 100px; }
+      
+    .rodapeEnd {
+        background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+          text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+          width: 130px;
+          padding: 20px; }
   }
