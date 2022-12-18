@@ -33,9 +33,14 @@
 
     }
 
-      .logoCoderPoint {
+    .menu-icon {
+        margin-right: 7%;
+        margin-top: 5%;
+    }
+
+    .logoCoderPoint {
         margin-left: 10%;
-        width: 200px;
+        width: 300px;
         padding: 5%;
 
 
@@ -48,12 +53,11 @@
         align-items: center;
         justify-content: space-around;
         margin-right: 60px;
-        margin-top: 20px;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
         background-color: rgba(255, 255, 255, 0.1);
-        width: 30px;
-        height: 30px;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
         flex-wrap: nowrap;
         cursor: pointer;
@@ -69,8 +73,10 @@
 
     .menu-icon .dropdown-menu {
         background-color: rgba(255, 255, 255, 0.1);
-        width:30%;
+        width: 30%;
         height: auto;
+
+
 
     }
 
@@ -141,7 +147,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 15%;
+        gap: 10%;
     }
 
     .NavItem {
@@ -161,25 +167,12 @@
 
     }
 
-    .container {
+    .principal {
 
         margin-top: 10px;
 
-        .cardapio {
-            text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            width: 80%;
-            background-color: rgba(78, 77, 77, 0.5);
-            backdrop-filter: blur(10px);
-
-            .cardapioTitle {
-                color: #D8A566;
-            }
-        }
-
-
-        .entrada {
+    
+        .quem_somos {
             text-align: center;
             padding: 10px;
             margin-left: 10%;
@@ -188,138 +181,28 @@
             backdrop-filter: blur(10px);
             margin-top: 5px;
 
-        }
-
-        .pratos {
-            .pratoContent {
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-
-                .pratoItem {
-                    margin-left: 5%;
-
-                    .pratos .preco {
-                        margin-right: 5%;
+            .quem_somos_historia{
+                    .quem_somos_historia_titulo{
+                        color:  #D8A566;
 
                     }
-                }
-            }
-
-        }
-
-        .petiscos {
-            text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            margin-top: 5%;
-            width: 80%;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-
-        }
-
-        .cardapioBebidas {
-            text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            width: 80%;
-            background-color: rgba(78, 77, 77, 0.5);
-            backdrop-filter: blur(10px);
-            margin-top: 50px;
-
-            .cardapioBebidasTitle {
-                color: #D8A566;
-            }
-        }
-        .sandubas {
-
-            text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            margin-top: 5%;
-            width: 80%;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-        }
-
-        .bebidas {
-            height: auto;
-            text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            margin-top: 2%;
-          
-            width: 80%;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-
-            .bebidasContent {
-                padding: 10px;
-
-                .bebidasTitle {
-                    font-size: 30px;
-                    margin-bottom: 50px;
-
-                }
-               
-                .bebidasItemTitle {
-                    font-size: 20px;
-                    text-align: start;
-                    margin-bottom: 20px;
-                    color: #30210f;
-
-                }
-                .bebidasItemdescripton{
-                   
-                    border: solid;
-                }
-            
+                    .quem_somos_historia_text{
+                        text-align: justify;
+                    }
+                    .quem_somos_image{
+                        width: 45vh;
+                    }
                 
             }
-                 
 
         }
 
+       
 
     }
 
 }
 
-.htres {
-    font-size: 16px;
-    color: black;
-}
-
-.hcinco {
-    font-style: italic;
-    font-size: 12px;
-    color: black;
-}
-
-.sticky {
-    display: none;
-}
-
-.stickyMobile {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #00bb2d;
-    border-radius: 100px;
-    position: fixed;
-    bottom: 20px;
-    margin-left: 85%;
-
-    .stickyIcon {
-        font-size: 20px;
-        color: white;
-
-    }
-}
 
 .rodape {
     background-color: #363636;
