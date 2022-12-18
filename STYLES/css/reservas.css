@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none; }
+  
+  /*desktop*/
+  @media screen and (min-width: 992px) {
+    .body {
+      overflow-x: hidden; }
+    .background {
+      width: 100%;
+      height: 100%;
+      min-height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagens/fundo.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative; }
+    .header {
+      margin: 0;
+      box-sizing: border-box;
+      flex-wrap: nowrap; }
+    .nav {
+      background-color: transparent;
+      overflow: hidden;
+      position: fixed;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh; }
+    .menu nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      text-decoration: none; }
+    .logo {
+      background: transparent;
+      cursor: pointer;
+      position: relative;
+      padding: 30px 50px 55px;
+      margin-top: 15px;
+      margin-left: 15px; }
+    .nav-list {
+      padding: 60px 50px 55px;
+      margin-left: 250px;
+      flex-wrap: nowrap; }
+    .nav-list a {
+      display: inline-block;
+      color: #F8F4E9;
+      margin-left: 55px;
+      font-size: 14px;
+      font-weight: 400;
+      flex-wrap: nowrap !important;
+      border-bottom: none;
+      text-decoration: none; }
+    .nav-list a:hover {
+      color: #D8A566;
+      transition: .4s; }
+    .menu-icon {
+      color: #D6C6B7;
+      display: inline-block;
+      margin-left: 55px;
+      font-size: 14px;
+      font-weight: 400;
+      flex-wrap: nowrap;
+      cursor: pointer;
+      z-index: 1001;
+      display: none; }
+   .container {
+      margin-left: 20px;
+      width: 80%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px); 
+    }
+    .form-title {
+      font-weight: 800;
+      font-size: 40px;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-bottom: 25px;
+      color: #F8F4E9;
+    }
+    .row {
+      justify-content: center;
+      margin-bottom: 20px;
+      padding-bottom: 30px;
+      
+    }
+    .col-md-4{
+      padding-bottom: 10px;
+
+    }
+    .form-label{
+      font-weight: 300;
+      font-size: 14px;
+      color:#D6C6B7;
+    }
+    .text-effect {
+      color: #D8A566;
+    }
+    .option-color{
+      color:#D8A566;
+    }
+
+    .form-select {
+      color:#D8A566 !important;
+    }
+
+    .validationCustom01{
+      color:#D6C6B7;
+    }
+    .btn-primary{
+      color: #F8F4E9;
+      background: #D8A566;
+      font-size: 22px;
+      transition: .2s;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 6px 32px;
+      margin-bottom: 30px;
+      border-radius: 30px;
+      border: 5px solid #D8A566;
+      cursor: pointer; 
+      margin-left: 20px;
+      margin-top: 10px;}
+        
+   .btn-primary:hover {
+      background: transparent;
+      border: 5px solid #D8A566;
+      color: #D8A566;
+      }
+    
+    .rodape {
+      background-color: #363636;
+      border: solid;
+      margin-top: 35px; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+      padding: 20px;
+      margin-top: 10px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-align: center; }
+    .rodape .adress .adressItem {
+      font-size: 14px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+    .rodape .expediente .expedienteTitle {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      margin-top: 0px; }
+    .rodape .expediente .expedienteContent {
+      padding: 0; }
+    .rodape .expediente .expedienteItem {
+      color: white;
+      font-size: 14px;
+      font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+    .rodape .redes .redesSocialTitle {
+      font-size: 18px;
+      color: white;
+      width: 300px;
+      text-align: center; }
+    .rodape .redes .redesSocialLogo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; }
+    .rodape .redes .redesSocialIcon {
+      color: #D8A566;
+      font-size: 20px;
+      font-style: normal;
+      text-decoration: none; }
+    .rodape .redes .redesSocialContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 8px;
+      padding: 20px; }
+    .rodape .redes .redesSocialItem {
+      width: 150px;
+      height: 100px; }
+      
+    .rodapeEnd {
+      background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+       width: 130px;
+       padding: 20px; }
+  }
