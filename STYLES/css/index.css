@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
   list-style: none; }
 
 /*desktop*/
@@ -157,7 +157,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    text-decoration: none;
+    list-style: none; }
   .logo {
     background: transparent;
     cursor: pointer;
@@ -390,7 +392,7 @@
     border-bottom: none;
     background: #D8A566;
     transition: .4s;
-    color:#F8F4E9; }
+    color: #F8F4E9; }
   .container {
     padding-top: 70px;
     padding-left: 110px; }
@@ -428,6 +430,8 @@
     margin-top: 12px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 35px;
+    text-decoration: none;
+    list-style: none;
     text-decoration: none; }
   .social a:hover {
     transform: scale(1.1);
