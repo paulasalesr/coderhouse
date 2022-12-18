@@ -20,9 +20,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+  .menu-icon {
+    margin-right: 7%;
+    margin-top: 5%; }
   .logoCoderPoint {
     margin-left: 10%;
-    width: 200px;
+    width: 300px;
     padding: 5%; }
   .menu-icon {
     color: #D6C6B7;
@@ -31,12 +34,11 @@
     align-items: center;
     justify-content: space-around;
     margin-right: 60px;
-    margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 30px;
-    height: 30px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     flex-wrap: nowrap;
     cursor: pointer;
@@ -107,18 +109,9 @@
   .item:hover {
     color: #D8A566;
     transition: color .4s; }
-  .container {
+  .principal {
     margin-top: 10px; }
-    .container .cardapio {
-      text-align: center;
-      padding: 10px;
-      margin-left: 10%;
-      width: 80%;
-      background-color: rgba(78, 77, 77, 0.5);
-      backdrop-filter: blur(10px); }
-      .container .cardapio .cardapioTitle {
-        color: #D8A566; }
-    .container .entrada {
+    .principal .quem_somos {
       text-align: center;
       padding: 10px;
       margin-left: 10%;
@@ -126,89 +119,12 @@
       background-color: rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(10px);
       margin-top: 5px; }
-    .container .pratos .pratoContent {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%; }
-      .container .pratos .pratoContent .pratoItem {
-        margin-left: 5%; }
-        .container .pratos .pratoContent .pratoItem .pratos .preco {
-          margin-right: 5%; }
-    .container .petiscos {
-      text-align: center;
-      padding: 10px;
-      margin-left: 10%;
-      margin-top: 5%;
-      width: 80%;
-      background-color: rgba(255, 255, 255, 0.5);
-      backdrop-filter: blur(10px); }
-    .container .cardapioBebidas {
-      text-align: center;
-      padding: 10px;
-      margin-left: 10%;
-      width: 80%;
-      background-color: rgba(78, 77, 77, 0.5);
-      backdrop-filter: blur(10px);
-      margin-top: 50px; }
-      .container .cardapioBebidas .cardapioBebidasTitle {
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
         color: #D8A566; }
-    .container .sandubas {
-      text-align: center;
-      padding: 10px;
-      margin-left: 10%;
-      margin-top: 5%;
-      width: 80%;
-      background-color: rgba(255, 255, 255, 0.5);
-      backdrop-filter: blur(10px); }
-    .container .bebidas {
-      height: auto;
-      text-align: center;
-      padding: 10px;
-      margin-left: 10%;
-      margin-top: 2%;
-      width: 80%;
-      background-color: rgba(255, 255, 255, 0.5);
-      backdrop-filter: blur(10px); }
-      .container .bebidas .bebidasContent {
-        padding: 10px; }
-        .container .bebidas .bebidasContent .bebidasTitle {
-          font-size: 30px;
-          margin-bottom: 50px; }
-        .container .bebidas .bebidasContent .bebidasItemTitle {
-          font-size: 20px;
-          text-align: start;
-          margin-bottom: 20px;
-          color: #30210f; }
-        .container .bebidas .bebidasContent .bebidasItemdescripton {
-          border: solid; } }
-
-.htres {
-  font-size: 16px;
-  color: black; }
-
-.hcinco {
-  font-style: italic;
-  font-size: 12px;
-  color: black; }
-
-.sticky {
-  display: none; }
-
-.stickyMobile {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #00bb2d;
-  border-radius: 100px;
-  position: fixed;
-  bottom: 20px;
-  margin-left: 85%; }
-  .stickyMobile .stickyIcon {
-    font-size: 20px;
-    color: white; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_text {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 45vh; } }
 
 .rodape {
   background-color: #363636;
