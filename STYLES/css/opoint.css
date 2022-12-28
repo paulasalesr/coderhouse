@@ -49,7 +49,7 @@
     transition: .4s;
     color: #F8F4E9; }
   .menu-icon .dropdown-menu {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #6a6969;
     width: 30%;
     height: auto; }
   .dropdown-menu .dropdown-item {
@@ -120,7 +120,8 @@
       backdrop-filter: blur(10px);
       margin-top: 5px; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
-        color: #321c02; }
+        color: #D8A566;
+        background-color: #363636; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
         text-align: justify; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
@@ -128,7 +129,16 @@
         color: black;
         font-weight: bold; }
       .principal .quem_somos .quem_somos_historia .quem_somos_image {
-        width: 20%; } }
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; } }
 
 .rodape {
   background-color: #363636;
@@ -213,7 +223,7 @@
     width: 130px;
     padding: 20px; }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   section {
     width: 100%;
     background-image: url(../../imagens/fundo.jpg);
@@ -257,7 +267,7 @@
     transition: .4s;
     color: #F8F4E9; }
   .menu-icon .dropdown-menu {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #6a6969;
     width: 30%;
     height: auto; }
   .dropdown-menu .dropdown-item {
@@ -281,8 +291,7 @@
     flex-direction: row;
     gap: 5%;
     justify-content: center;
-    margin-top: 10px;
-    height: 100px; }
+    align-content: center; }
   .socialMobile a {
     width: 37px;
     height: 37px;
@@ -294,7 +303,7 @@
     color: #F8F4E9;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 50px;
+    margin-top: 10px;
     text-decoration: none; }
   .socialMobile a:hover {
     transform: scale(1.1);
@@ -329,7 +338,8 @@
       backdrop-filter: blur(10px);
       margin-top: 5px; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
-        color: #321c02; }
+        color: #D8A566;
+        background-color: #363636; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
         text-align: justify; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
@@ -337,11 +347,21 @@
         color: black;
         font-weight: bold; }
       .principal .quem_somos .quem_somos_historia .quem_somos_image {
-        width: 350px; } }
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; } }
 
 .rodape {
   background-color: #363636;
-  border: solid; }
+  border: solid;
+  margin-top: 20px; }
   .rodape .rodapeContent {
     display: flex;
     flex-direction: column;
@@ -390,7 +410,7 @@
     .rodape .redes .redesSocialTitle {
       font-size: 18px;
       color: white;
-      width: 200px;
+      width: 300px;
       text-align: center; }
     .rodape .redes .redesSocialLogo {
       display: flex;
@@ -412,27 +432,6 @@
     .rodape .redes .redesSocialItem {
       width: 150px;
       height: 100px; }
-
-.principal {
-  margin-top: 10px; }
-  .principal .quem_somos {
-    text-align: center;
-    padding: 10px;
-    margin-left: 10%;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    margin-top: 5px; }
-    .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
-      color: #321c02; }
-    .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
-      text-align: justify; }
-    .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
-      text-decoration: none;
-      color: black;
-      font-weight: bold; }
-    .principal .quem_somos .quem_somos_historia .quem_somos_image {
-      width: 350px; }
 
 .rodapeEnd {
   background-color: black; }
@@ -471,7 +470,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px; }
+    gap: 50px;
+    width: 600px; }
   .NavList .NavContent {
     display: flex;
     flex-direction: row;
@@ -487,23 +487,6 @@
   .item:hover {
     color: #D8A566;
     transition: color .4s; }
-  .Social a {
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    color: #F8F4E9;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 50px;
-    text-decoration: none; }
-  .Social a:hover {
-    transform: scale(1.1);
-    background: #D8A566;
-    transition: .4s; }
   .principal {
     margin-top: 10px; }
     .principal .quem_somos {
@@ -515,7 +498,8 @@
       backdrop-filter: blur(10px);
       margin-top: 5px; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
-        color: #321c02; }
+        color: #D8A566;
+        background-color: #363636; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
         text-align: justify; }
       .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
@@ -523,113 +507,96 @@
         color: black;
         font-weight: bold; }
       .principal .quem_somos .quem_somos_historia .quem_somos_image {
-        width: 350px; } }
-
-.stickyMobile {
-  display: none; }
-
-.sticky {
-  width: 150px;
-  height: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #00bb2d;
-  border-radius: 25px;
-  position: fixed;
-  bottom: 20px;
-  margin-left: 78%; }
-  .sticky .stickyName {
-    font-size: 14px;
-    color: white;
-    font-weight: bold; }
-  .sticky .stickyIcon {
-    font-size: 20px;
-    color: white;
-    margin-top: 5px; }
-
-.rodape {
-  background-color: #363636;
-  border: solid; }
-  .rodape .rodapeContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px; }
-  .rodape .adress {
-    display: none; }
-  .rodape .adressTablet .adressTitleTablet {
-    font-size: 16px;
-    font-weight: bold;
-    color: white; }
-  .rodape .adressTablet .adressItemTablet {
-    font-size: 16px;
-    font-weight: 200;
-    color: white;
-    text-decoration: none; }
-  .rodape .adressTablet .adressItemTablet:hover {
-    color: #D8A566;
-    cursor: pointer; }
-  .rodape .expediente {
-    margin-top: 2px; }
-    .rodape .expediente .expedienteTitle {
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      height: 60px;
-      margin-top: 0px; }
-    .rodape .expediente .expedienteContent {
-      padding: 0; }
-    .rodape .expediente .expedienteItem {
-      color: white;
-      font-size: 16px;
-      font-weight: 100;
-      list-style: none; }
-  .rodape .redes {
-    height: 300px;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 30px; }
-    .rodape .redes .redesSocialTitle {
-      font-size: 18px;
-      color: white;
-      width: 200px;
-      text-align: center; }
-    .rodape .redes .redesSocialLogo {
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
-      gap: 20px; }
-    .rodape .redes .redesSocialIcon {
-      color: #D8A566;
-      font-size: 20px;
-      font-style: normal;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adress {
+      display: none; }
+    .rodape .adressTablet .adressTitleTablet {
+      font-size: 16px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adressTablet .adressItemTablet {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
       text-decoration: none; }
-    .rodape .redes .redesSocialContent {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 8px;
-      padding: 20px; }
-    .rodape .redes .redesSocialItem {
+    .rodape .adressTablet .adressItemTablet:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        list-style: none; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 20px; }
+      .rodape .redes .redesSocialItem {
+        width: 130px;
+        height: 80px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
       width: 130px;
-      height: 80px; }
+      padding: 20px; } }
 
-.rodapeEnd {
-  background-color: black; }
-  .rodapeEnd .rodapeEndLink {
-    text-decoration: none; }
-  .rodapeEnd .rodapeEndLogo {
-    width: 130px;
-    padding: 20px; }
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
   section {
     width: 100%;
     background-image: url(../../imagens/fundo.jpg);
@@ -643,6 +610,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 30px; }
   .menu-icon {
@@ -658,16 +626,18 @@
   .Menu .NavList {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px; }
+    justify-content: end;
+    gap: 80px;
+    width: 600px;
+    align-items: center; }
   .NavList .NavContent {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items: center;
     gap: 50px;
     margin-top: 5%;
-    margin-right: 10%;
-    width: 700px; }
+    margin-right: 0%; }
   .NavList .NavItem {
     list-style: none; }
   .NavList .item {
@@ -677,168 +647,38 @@
   .item:hover {
     color: #D8A566;
     transition: color .4s; }
-  .Social a {
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    color: #F8F4E9;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 50px;
-    text-decoration: none; }
-  .Social a:hover {
-    transform: scale(1.1);
-    background: #D8A566;
-    transition: .4s; }
-  .container .cardapio {
-    text-align: center;
-    padding: 10px;
-    margin-left: 150px;
-    width: 70%;
-    background-color: rgba(78, 77, 77, 0.5);
-    backdrop-filter: blur(10px); }
-    .container .cardapio .cardapioTitle {
-      color: #D8A566; }
-  .container .entrada {
-    width: 70%;
-    height: 950px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 150px; }
-    .container .entrada .entradaContent {
-      text-align: center; }
-  .container .petiscos {
-    width: 70%;
-    height: 850px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    margin-bottom: 30px;
-    margin-left: 150px; }
-    .container .petiscos .petiscoContent {
-      text-align: center; }
-  .container .sandubas {
-    height: 700px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    margin-bottom: 30px;
-    margin-left: 150px; }
-    .container .sandubas .sandubasContent {
-      text-align: center; }
-  .container .cardapioBebidas {
-    text-align: center;
-    padding: 10px;
-    margin-left: 15%;
-    width: 70%;
-    background-color: rgba(78, 77, 77, 0.5);
-    backdrop-filter: blur(10px);
-    margin-top: 50px; }
-    .container .cardapioBebidas .cardapioBebidasTitle {
-      color: #D8A566; }
-  .container .bebidas {
-    text-align: center;
-    padding: 10px;
-    margin-left: 15%;
-    margin-top: 2%;
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px); }
-    .container .bebidas .bebidasContent {
-      padding: 10px; }
-      .container .bebidas .bebidasContent .bebidasTitle {
-        font-size: 30px;
-        margin-bottom: 50px; }
-      .container .bebidas .bebidasContent .bebidasItemTitle {
-        font-size: 20px;
-        text-align: start;
-        margin-bottom: 20px;
-        color: #30210f; }
-      .container .bebidas .bebidasContent .bebidasItemdescripton {
-        border: solid; }
-  .container .preco {
-    margin-right: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 400px;
-    gap: 60px;
-    color: black; }
-  .container .pratoContent {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; }
-  .container .htres {
-    font-size: 16px;
-    color: black;
-    margin-top: 30px; }
-  .container .hcinco {
-    font-style: italic;
-    font-size: 12px;
-    color: black; }
-  .container .valor {
-    color: #7b4504; }
-  .container .nomePrato {
-    font-weight: 800; }
-  .container .container .hum {
-    height: 30px;
-    margin-left: 10px;
-    color: black;
-    text-align: center; }
-  .container .pratos {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 100%;
-    color: black;
-    box-sizing: border-box;
-    margin-left: 30px;
-    margin-top: 30px; }
-  .container .pratoItem {
-    margin-top: 0px; }
-  .stickyMobile {
-    display: none; }
-  .sticky {
-    width: 150px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #00bb2d;
-    border-radius: 25px;
-    position: fixed;
-    bottom: 20px;
-    margin-left: 85%; }
-    .sticky .stickyName {
-      font-size: 14px;
-      color: white;
-      font-weight: bold; }
-    .sticky .stickyIcon {
-      font-size: 20px;
-      color: white;
+  .principal {
+    margin-top: 10px; }
+    .principal .quem_somos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
       margin-top: 5px; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 80%;
+        margin-left: 10%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; }
   .rodape {
     background-color: #363636;
     border: solid; }

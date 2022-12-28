@@ -72,7 +72,7 @@
     }
 
     .menu-icon .dropdown-menu {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgb(106, 105, 105);
         width: 30%;
         height: auto;
 
@@ -183,7 +183,8 @@
 
             .quem_somos_historia{
                     .quem_somos_historia_titulo{
-                        color:  #321c02;
+                        color: #D8A566;
+                        background-color: #363636;
 
                     }
                     .quem_somos_historia_texto{
@@ -195,9 +196,24 @@
                         font-weight: bold;
                     }
                     .quem_somos_image{
-                        width: 20%;
+                        width: 80%;
+                    }
+                    .quem_somos_imagetext{
+                        font-size: 1em;
+                       text-align: center;
+                        
                     }
                 
+            }
+            .nossa_chef{
+                .nossa_chef_titulo{
+                    color: #D8A566;
+                        background-color: #363636;
+                        width: 100%;
+                }
+                .nossa_chef_video{
+                   width: 90%;
+                }
             }
         
            
@@ -347,13 +363,10 @@
     }
 }
 
-
-
-@media screen and (min-width:577px) and (max-width:768px) {
-
+@media screen and (max-width:768px) {
     section {
         width: 100%;
-     
+
         background-image: url(../../imagens/fundo.jpg);
         background-size: cover;
         background-attachment: fixed;
@@ -416,7 +429,7 @@
     }
 
     .menu-icon .dropdown-menu {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgb(106, 105, 105);;
         width: 30%;
         height: auto;
 
@@ -453,11 +466,7 @@
         flex-direction: row;
         gap: 5%;
         justify-content: center;
-        margin-top: 10px;
-        height: 100px;
-
-
-
+        align-content: center;
 
     }
 
@@ -473,7 +482,7 @@
         color: #F8F4E9;
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.1);
-        margin-top: 50px;
+        margin-top: 10px;
         text-decoration: none;
     }
 
@@ -531,7 +540,8 @@
 
             .quem_somos_historia{
                     .quem_somos_historia_titulo{
-                        color:  #321c02;
+                        color: #D8A566;
+                        background-color: #363636;
 
                     }
                     .quem_somos_historia_texto{
@@ -539,13 +549,30 @@
                     }
                     .quem_somos_historia_texto_link{
                         text-decoration: none;
-                        color: black;
+                        color:black;
                         font-weight: bold;
                     }
                     .quem_somos_image{
-                        width: 350px;
+                        width: 80%;
+                    }
+                    .quem_somos_imagetext{
+                        font-size: 1em;
+                        text-align: center;
+                    
+                       
+                       
                     }
                 
+            }
+            .nossa_chef{
+                .nossa_chef_titulo{
+                    color: #D8A566;
+                        background-color: #363636;
+                        width: 100%;
+                }
+                .nossa_chef_video{
+                   width: 90%;
+                }
             }
         
            
@@ -557,188 +584,143 @@
 
 }
 
-    .rodape {
-        background-color: #363636;
-        border: solid;
 
-        .rodapeContent {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            gap: 30px;
-            padding: 30px;
-            margin-top: 20px;
+.rodape {
+    background-color: #363636;
+    border: solid;  
+    margin-top: 20px;
 
-
-        }
-
-        .adressTablet {
-            display: none;
-        }
-
-        .adress {
-
-            .adressTitle {
-                font-size: 18px;
-                font-weight: bold;
-                color: white;
-                text-align: center;
-            }
-
-            .adressItem {
-                font-size: 14px;
-                font-weight: 200;
-                color: white;
-                text-decoration: none;
-
-            }
-
-            .adressItem:hover {
-                color: #D8A566;
-                cursor: pointer;
-            }
-
-        }
-
-        .expediente {
-            margin-top: 2px;
-
-            .expedienteTitle {
-                color: white;
-                font-size: 18px;
-                font-weight: bold;
-                height: 60px;
-                margin-top: 0px;
-
-            }
-
-            .expedienteContent {
-                padding: 0;
-
-            }
-
-            .expedienteItem {
-                color: white;
-                font-size: 14px;
-                font-weight: 100;
-
-            }
-
-        }
-
-        .redes {
-
-            height: 300px;
-            width: 30%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 5px;
-            margin-top: 30px;
-
-            .redesSocialTitle {
-                font-size: 18px;
-                color: white;
-                width: 200px;
-                text-align: center;
-            }
-
-            .redesSocialLogo {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                gap: 20px;
-
-            }
-
-            .redesSocialIcon {
-                color: #D8A566;
-                font-size: 20px;
-                font-style: normal;
-                text-decoration: none;
-            }
-
-
-            .redesSocialContent {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
-                gap: 8px;
-                padding: 20px;
-
-            }
-
-            .redesSocialItem {
-                width: 150px;
-                height: 100px;
-
-            }
-
-        }
+    .rodapeContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 30px;
+        margin-top: 20px;
 
 
     }
-    .principal {
 
-        margin-top: 10px;
+    .adressTablet {
+        display: none;
+    }
 
-    
-        .quem_somos {
+    .adress {
+
+        .adressTitle {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
             text-align: center;
-            padding: 10px;
-            margin-left: 10%;
-            width: 80%;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-            margin-top: 5px;
-
-            .quem_somos_historia{
-                    .quem_somos_historia_titulo{
-                        color:  #321c02;
-
-                    }
-                    .quem_somos_historia_texto{
-                        text-align: justify;
-                    }
-                    .quem_somos_historia_texto_link{
-                        text-decoration: none;
-                        color: black;
-                        font-weight: bold;
-                    }
-                    .quem_somos_image{
-                        width: 350px;
-                    }
-                
-            }
-        
-           
         }
-        
-       
+
+        .adressItem {
+            font-size: 14px;
+            font-weight: 200;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .adressItem:hover {
+            color: #D8A566;
+            cursor: pointer;
+        }
 
     }
 
+    .expediente {
+        margin-top: 2px;
 
+        .expedienteTitle {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            height: 60px;
+            margin-top: 0px;
 
-    .rodapeEnd {
-        background-color: black;
+        }
 
-        .rodapeEndLink {
+        .expedienteContent {
+            padding: 0;
+
+        }
+
+        .expedienteItem {
+            color: white;
+            font-size: 14px;
+            font-weight: 100;
+
+        }
+
+    }
+
+    .redes {
+
+        height: 300px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 30px;
+
+        .redesSocialTitle {
+            font-size: 18px;
+            color: white;
+            width: 300px;
+            text-align: center;
+        }
+
+        .redesSocialLogo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+        }
+
+        .redesSocialIcon {
+            color: #D8A566;
+            font-size: 20px;
+            font-style: normal;
             text-decoration: none;
         }
 
-        .rodapeEndLogo {
-            width: 130px;
+        .redesSocialContent {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
             padding: 20px;
+
         }
+
+        .redesSocialItem {
+            width: 150px;
+            height: 100px;
+
+        }
+
     }
 
 
+}
 
+.rodapeEnd {
+    background-color: black;
 
+    .rodapeEndLink {
+        text-decoration: none;
+    }
 
+    .rodapeEndLogo {
+        width: 130px;
+        padding: 20px;
+    }
+}
 
 @media screen and (min-width:769px) and (max-width:992px) {
     section {
@@ -787,6 +769,7 @@
         flex-direction: row;
         justify-content: center;
         gap: 50px;
+        width: 600px;
 
     }
 
@@ -815,27 +798,6 @@
 
     }
 
-    .Social a {
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 17px;
-        color: #F8F4E9;
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.1);
-        margin-top: 50px;
-        text-decoration: none;
-    }
-
-    .Social a:hover {
-        transform: scale(1.1);
-        background: #D8A566;
-        transition: .4s;
-    }
-
     .principal {
 
         margin-top: 10px;
@@ -852,7 +814,8 @@
 
             .quem_somos_historia{
                     .quem_somos_historia_titulo{
-                        color:  #321c02;
+                        color: #D8A566;
+                        background-color: #363636;
 
                     }
                     .quem_somos_historia_texto{
@@ -860,13 +823,30 @@
                     }
                     .quem_somos_historia_texto_link{
                         text-decoration: none;
-                        color: black;
+                        color:black;
                         font-weight: bold;
                     }
                     .quem_somos_image{
-                        width: 350px;
+                        width: 80%;
+                    }
+                    .quem_somos_imagetext{
+                        font-size: 1em;
+                    
+                       text-align: center;
+                        
+                        
                     }
                 
+            }
+            .nossa_chef{
+                .nossa_chef_titulo{
+                    color: #D8A566;
+                        background-color: #363636;
+                        width: 100%;
+                }
+                .nossa_chef_video{
+                   width: 90%;
+                }
             }
         
            
@@ -876,40 +856,7 @@
 
     }
 
-}
 
-
-    .stickyMobile {
-        display: none;
-    }
-
-    .sticky {
-        width: 150px;
-        height: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #00bb2d;
-        border-radius: 25px;
-        position: fixed;
-        bottom: 20px;
-        margin-left: 78%;
-
-        .stickyName {
-            font-size: 14px;
-            color: white;
-            font-weight: bold;
-
-        }
-
-        .stickyIcon {
-            font-size: 20px;
-            color: white;
-            margin-top: 5px;
-
-        }
-    }
 
     .rodape {
         background-color: #363636;
@@ -1045,11 +992,10 @@
         }
     }
 
+}
 
-
-@media screen and (min-width:992px) {
-
-
+@media screen and (min-width:993px) {
+    
     section {
         width: 100%;
       
@@ -1071,6 +1017,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
         padding: 30px;
 
@@ -1101,8 +1048,11 @@
     .Menu .NavList {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        gap: 50px;
+        justify-content: end;
+        gap: 80px;
+        width: 600px;
+        align-items: center;
+     
 
     }
 
@@ -1110,11 +1060,12 @@
         display: flex;
         flex-direction: row;
         justify-content:end;
+        align-items: center;
         gap: 50px;
         margin-top: 5%;
-        margin-right: 10%;
-        width: 700px;
+        margin-right: 0%;
        
+      
     }
 
     .NavList .NavItem {
@@ -1133,245 +1084,59 @@
         transition: color .4s;
 
     }
+    .principal {
 
-    .Social a {
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 17px;
-        color: #F8F4E9;
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.1);
-        margin-top: 50px;
-        text-decoration: none;
-    }
+        margin-top: 10px;
 
-    .Social a:hover {
-        transform: scale(1.1);
-        background: #D8A566;
-        transition: .4s;
-    }
-
-    .container {
-      
-        .cardapio {
-        
+    
+        .quem_somos {
             text-align: center;
             padding: 10px;
-           margin-left: 150px;
-            width: 70%;
-            background-color: rgba(78, 77, 77, 0.5);
-            backdrop-filter: blur(10px);
-
-            .cardapioTitle {
-                color: #D8A566;
-            }
-        }
-        .entrada {
-            width: 70%;
-            height: 950px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            box-sizing: border-box;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
+            margin-left: 10%;
+            width: 80%;
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
-            margin-bottom: 30px;
-            margin-top: 30px;
-            margin-left: 150px;
-
-            .entradaContent{
-                text-align: center;
-            }
-    
-        }
-        .petiscos {
-            width: 70%;
-            height: 850px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-            margin-bottom: 30px;
-            margin-left: 150px;
-
-            .petiscoContent{
-                text-align: center;
-            }
-    
-    
-        }
-        .sandubas {
-            height: 700px;
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border-left: 2px solid white;
-            border-bottom: 2px solid white;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-    
-            margin-bottom: 30px;
-            margin-left: 150px;
-            .sandubasContent{
-                text-align: center;
-            }
-        }
-        .cardapioBebidas {
-            text-align: center;
-            padding: 10px;
-            margin-left: 15%;
-            width: 70%;
-            background-color: rgba(78, 77, 77, 0.5);
-            backdrop-filter: blur(10px);
-            margin-top: 50px;
-
-            .cardapioBebidasTitle {
-                color: #D8A566;
-            }
-        }
-        .bebidas {
-           
-            text-align: center;
-            padding: 10px;
-            margin-left: 15%;
-            margin-top: 2%; 
-            width: 70%;
-            background-color: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
-
-            .bebidasContent {
-                padding: 10px;
-
-                .bebidasTitle {
-                    font-size: 30px;
-                    margin-bottom: 50px;
-
-                }
-               
-                .bebidasItemTitle {
-                    font-size: 20px;
-                    text-align: start;
-                    margin-bottom: 20px;
-                    color: #30210f;
-
-                }
-                .bebidasItemdescripton{
-                   
-                    border: solid;
-                }
-            
-                
-            }
-    
-
-    }
-
-   
-    .preco {
-        margin-right: 10%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 400px;
-        gap: 60px;
-        color: black;
-    }
-
-    .pratoContent {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-
-    .htres {
-        font-size: 16px;
-        color: black;
-        margin-top: 30px;
-    }
-
-    .hcinco {
-        font-style: italic;
-        font-size: 12px;
-        color: black;
-
-        
-    }
-
-    .valor {
-        color: #7b4504;
-    }
-
-    .nomePrato {
-        font-weight: 800;
-    }
-
-    .container .hum {
-        height: 30px;
-        margin-left: 10px;
-        color: black;
-        text-align: center;
-
-
-    }
-
-    .pratos {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        width: 100%;
-        color: black;
-        box-sizing: border-box;
-        margin-left: 30px;
-        margin-top: 30px;
-    }
-
-    .pratoItem {
-        margin-top: 0px;
-    }
-    }
-
-    .stickyMobile {
-        display: none;
-    }
-
-    .sticky {
-        width: 150px;
-        height: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #00bb2d;
-        border-radius: 25px;
-        position: fixed;
-        bottom: 20px;
-        margin-left: 85%;
-
-        .stickyName {
-            font-size: 14px;
-            color: white;
-            font-weight: bold;
-
-        }
-
-        .stickyIcon {
-            font-size: 20px;
-            color: white;
             margin-top: 5px;
 
+            .quem_somos_historia{
+                    .quem_somos_historia_titulo{
+                        color: #D8A566;
+                        background-color: #363636;
+                        width: 100%;
+
+                    }
+                    .quem_somos_historia_texto{
+                        text-align: justify;
+                    }
+                    .quem_somos_historia_texto_link{
+                        text-decoration: none;
+                        color:black;
+                        font-weight: bold;
+                    }
+                    .quem_somos_image{
+                        width: 80%;
+                        margin-left: 10%;
+                    }
+                    .quem_somos_imagetext{
+                        font-size: 1em;
+                        text-align: center;
+                        
+                    }
+                
+            }
+            .nossa_chef{
+                .nossa_chef_titulo{
+                    color: #D8A566;
+                        background-color: #363636;
+                        width: 100%;
+                }
+                .nossa_chef_video{
+                   width: 90%;
+                }
+            }
+            
         }
     }
-
     .rodape {
         background-color: #363636;
         border: solid;
