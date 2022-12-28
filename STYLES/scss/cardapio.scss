@@ -23,6 +23,7 @@
 
         padding-top: 7%;
         text-align: center;
+       
     }
 
     .logo {
@@ -39,7 +40,7 @@
     }
 
     .logoCoderPoint {
-        margin-left: 10%;
+        margin-left: 2%;
         width: 300px;
         padding: 5%;
 
@@ -53,11 +54,11 @@
         align-items: center;
         justify-content: space-around;
         margin-right: 60px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
         background-color: rgba(255, 255, 255, 0.1);
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         flex-wrap: nowrap;
         cursor: pointer;
@@ -72,7 +73,7 @@
     }
 
     .menu-icon .dropdown-menu {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgb(106, 105, 105);
         width: 30%;
         height: auto;
 
@@ -255,7 +256,6 @@
             padding: 10px;
             margin-left: 10%;
             margin-top: 2%;
-          
             width: 80%;
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
@@ -265,27 +265,53 @@
 
                 .bebidasTitle {
                     font-size: 30px;
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
 
                 }
                
                 .bebidasItemTitle {
                     font-size: 20px;
                     text-align: start;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                     color: #30210f;
+                    margin-top: 20px;
 
+                }
+                .bebidasItem{
+                    margin-top: 10px;
+                }
+                td{
+                    font-weight: bold;
+                    color: #7b4504;
                 }
                 .bebidasItemdescripton{
                    
                     border: solid;
                 }
-            
-                
-            }
+
+                .bebidasMarcas{
+                    display: flex;
+                    justify-content: space-between;
+                    .bebidasMarcasImage{
+                        width: 15%;
+                        border-radius: 50%;
+                    }   
+
+                }
+                .bebidasMarcasDrinks{
+                    .bebidasMarcasImage{
+                        width: 30%;
+                        border-radius: 50%;
+                    }   
                  
+                }
+                
+            }  
+
+            
 
         }
+       
 
 
     }
@@ -301,6 +327,10 @@
     font-style: italic;
     font-size: 12px;
     color: black;
+}
+.valor{
+    font-weight: bold;
+    color: #7b4504;
 }
 
 .sticky {
@@ -533,7 +563,7 @@
     }
 
     .menu-icon .dropdown-menu {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color:rgb(106, 105, 105);
         width: 30%;
         height: auto;
 
@@ -730,24 +760,46 @@
 
                 .bebidasTitle {
                     font-size: 30px;
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
 
                 }
+              td{
+                color: #7b4504;
+                font-weight: bold;
+              }
                
                 .bebidasItemTitle {
                     font-size: 20px;
                     text-align: start;
                     margin-bottom: 20px;
                     color: #30210f;
+                    margin-top: 10px;
 
                 }
                 .bebidasItemdescripton{
                    
                     border: solid;
                 }
-            
+                .bebidasMarcas{
+                    display: flex;
+                    justify-content: space-between;
+                    .bebidasMarcasImage{
+                        width: 15%;
+                        border-radius: 50%;
+                    }   
+
+                }
+                .bebidasMarcasDrinks{
+                    .bebidasMarcasImage{
+                        width: 30%;
+                        border-radius: 50%;
+                    }   
+                 
+                }
                 
             }
+           
+              
                  
 
         }
@@ -763,6 +815,10 @@
         font-style: italic;
         font-size: 12px;
         color: black;
+    }
+    .valor{
+        color: #7b4504;
+        font-weight: bold;
     }
 
     .stickyMobile {
@@ -1144,26 +1200,45 @@
 
                 .bebidasTitle {
                     font-size: 30px;
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
                     margin-top: 20px;
 
                 }
               
                 .bebidasItemType{
                     text-align: center;
-                   margin-left: 20px;
+                   margin-left: 10px;
+                   font-size: 18px;
                 }
-               
+               td{
+                font-size: 18px;
+                color: #7b4504;
+                font-weight: bold;
+               }
                 .bebidasItemTitle {
                     font-size: 20px;
                     text-align: start;
                     margin-bottom: 20px;
                     color: #30210f;
+                    margin-top: 20px;
 
                 }
-                .bebidasItemdescripton{
-                   
-                    border: solid;
+               
+                .bebidasMarcas{
+                    display: flex;
+                    justify-content: space-between;
+                    .bebidasMarcasImage{
+                        width: 15%;
+                        border-radius: 50%;
+                    }   
+
+                }
+                .bebidasMarcasDrinks{
+                    .bebidasMarcasImage{
+                        width: 30%;
+                        border-radius: 50%;
+                    }   
+                 
                 }
             
                 
@@ -1200,12 +1275,15 @@
         font-style: italic;
         font-size: 12px;
         color: black;
+        width: 300px;
+        text-align: start
 
         ;
     }
 
     .valor {
         color: #7b4504;
+        font-weight: bold;
     }
 
     .nomePrato {
@@ -1409,7 +1487,7 @@
 
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
 
 
     section {
@@ -1433,6 +1511,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
         padding: 30px;
 
@@ -1463,21 +1542,23 @@
     .Menu .NavList {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: end;
         gap: 80px;
         width: 600px;
         align-items: center;
+     
 
     }
 
     .NavList .NavContent {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content:end;
         align-items: center;
         gap: 50px;
         margin-top: 5%;
-        margin-right: 30%;
+        margin-right: 0%;
+       
       
     }
 
@@ -1536,7 +1617,6 @@
         }
         .entrada {
             width: 70%;
-            height: 950px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1551,15 +1631,16 @@
 
             .entradaContent{
                 text-align: center;
+                margin-top: 30px;
             }
     
         }
         .petiscos {
             width: 70%;
-            height: 850px;
+          
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             border-left: 2px solid white;
             border-bottom: 2px solid white;
             background-color: rgba(255, 255, 255, 0.5);
@@ -1569,12 +1650,12 @@
 
             .petiscoContent{
                 text-align: center;
+                margin-top: 20px;
             }
-    
-    
+       
         }
         .sandubas {
-            height: 700px;
+         
             width: 70%;
             display: flex;
             flex-direction: column;
@@ -1588,6 +1669,7 @@
             margin-left: 150px;
             .sandubasContent{
                 text-align: center;
+                margin-top: 20px;
             }
         }
         .cardapioBebidas {
@@ -1612,27 +1694,57 @@
             width: 70%;
             background-color: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(10px);
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            .bebidasItem{
+                margin-left: 50px;
+            }
+
+            td{
+                font-size: 20px;
+                color:#7b4504;
+                font-weight: bold;
+            }
 
             .bebidasContent {
-                padding: 10px;
+                padding: 30px;
 
                 .bebidasTitle {
-                    font-size: 30px;
-                    margin-bottom: 50px;
+                    font-size: 2.5rem;
+                    margin-bottom: 20px;
+                    font-weight: 500;
 
                 }
                
                 .bebidasItemTitle {
-                    font-size: 20px;
+                    font-size: 30px;
                     text-align: start;
                     margin-bottom: 20px;
                     color: #30210f;
+                    margin-top: 30px;
 
                 }
-                .bebidasItemdescripton{
-                   
-                    border: solid;
+                .bebidasItemType{
+                    font-size: 20px;
                 }
+                
+                .bebidasMarcas{
+                    display: flex;
+                    justify-content: space-between;
+                    .bebidasMarcasImage{
+                        width: 15%;
+                        border-radius: 50%;
+                    }   
+
+                }
+                .bebidasMarcasDrinks{
+                    .bebidasMarcasImage{
+                        width: 30%;
+                        border-radius: 50%;
+                    }   
+                 
+                }
+             
             
                 
             }
@@ -1649,30 +1761,35 @@
         width: 400px;
         gap: 60px;
         color: black;
+       
     }
 
     .pratoContent {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
 
     .htres {
-        font-size: 16px;
+        font-size: 18px;
         color: black;
         margin-top: 30px;
     }
 
     .hcinco {
         font-style: italic;
-        font-size: 12px;
+        font-size: 14px;
         color: black;
+        margin-right: 20px;
+        width: 300px;
+        text-align: start;
 
         
     }
 
     .valor {
         color: #7b4504;
+        font-weight: bold;
     }
 
     .nomePrato {
@@ -1697,6 +1814,511 @@
         box-sizing: border-box;
         margin-left: 30px;
         margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .pratoItem {
+        margin-top: 0px;
+    }
+    }
+
+    .stickyMobile {
+        display: none;
+    }
+
+    .sticky {
+        width: 150px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #00bb2d;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 20px;
+        margin-left: 85%;
+
+        .stickyName {
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .stickyIcon {
+            font-size: 20px;
+            color: white;
+            margin-top: 5px;
+
+        }
+    }
+
+    .rodape {
+        background-color: #363636;
+        border: solid;
+
+        .rodapeContent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+
+
+        }
+
+        .adressTablet {
+            display: none;
+        }
+
+        .adress {
+
+            .adressTitle {
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .adressItem {
+                font-size: 16px;
+                font-weight: 200;
+                color: white;
+                text-decoration: none;
+
+            }
+
+            .adressItem:hover {
+                color: #D8A566;
+                cursor: pointer;
+            }
+
+        }
+
+        .expediente {
+            margin-top: 2px;
+
+            .expedienteTitle {
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                height: 60px;
+                margin-top: 0px;
+
+            }
+
+            .expedienteContent {
+                padding: 0;
+
+            }
+
+            .expedienteItem {
+                color: white;
+                font-size: 16px;
+                font-weight: 100;
+
+            }
+
+        }
+
+        .redes {
+
+            height: 300px;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 30px;
+
+            .redesSocialTitle {
+                font-size: 18px;
+                color: white;
+                width: 200px;
+                text-align: center;
+            }
+
+            .redesSocialLogo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+            }
+
+            .redesSocialIcon {
+                color: #D8A566;
+                font-size: 20px;
+                font-style: normal;
+                text-decoration: none;
+            }
+
+            .redesSocialContent {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 8px;
+                padding: 10px;
+
+            }
+
+            .redesSocialItem {
+                width: 140px;
+                height: 90px;
+
+            }
+
+        }
+
+
+    }
+
+    .rodapeEnd {
+        background-color: black;
+
+        .rodapeEndLink {
+            text-decoration: none;
+        }
+
+        .rodapeEndLogo {
+            width: 130px;
+            padding: 20px;
+        }
+    }
+
+}
+@media screen and (min-width:1200px) {
+
+
+    section {
+        width: 100%;
+      
+        background-image: url(../../imagens/fundo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .socialMobile {
+        display: none;
+    }
+
+    .menuTablet {
+        display: none;
+    }
+
+
+    .Menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logoCoderPoint {
+        margin-left: 30%;
+        width: 300px;
+
+
+    }
+
+    .Menu .Social {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+
+
+
+    }
+
+    .Menu .NavList {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 80px;
+        width: 600px;
+        align-items: center;
+     
+
+    }
+
+    .NavList .NavContent {
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+        align-items: center;
+        gap: 50px;
+        margin-top: 5%;
+        margin-right: 0%;
+       
+      
+    }
+
+    .NavList .NavItem {
+        list-style: none;
+
+    }
+
+    .NavList .item {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .item:hover {
+        color: #D8A566;
+        transition: color .4s;
+
+    }
+
+    .Social a {
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        color: #F8F4E9;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: 50px;
+        text-decoration: none;
+    }
+
+    .Social a:hover {
+        transform: scale(1.1);
+        background: #D8A566;
+        transition: .4s;
+    }
+
+    .container {
+      
+        .cardapio {
+        
+            text-align: center;
+            padding: 10px;
+           margin-left: 150px;
+            width: 70%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+
+            .cardapioTitle {
+                color: #D8A566;
+            }
+        }
+        .entrada {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+            margin-top: 30px;
+            margin-left: 150px;
+
+            .entradaContent{
+                text-align: center;
+                margin-top: 30px;
+            }
+    
+        }
+        .petiscos {
+            width: 70%;
+          
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+            margin-left: 150px;
+
+            .petiscoContent{
+                text-align: center;
+                margin-top: 20px;
+            }
+       
+        }
+        .sandubas {
+         
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+    
+            margin-bottom: 30px;
+            margin-left: 150px;
+            .sandubasContent{
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .cardapioBebidas {
+            text-align: center;
+            padding: 10px;
+            margin-left: 15%;
+            width: 70%;
+            background-color: rgba(78, 77, 77, 0.5);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+
+            .cardapioBebidasTitle {
+                color: #D8A566;
+            }
+        }
+        .bebidas {
+           
+            text-align: center;
+            padding: 10px;
+            margin-left: 15%;
+            margin-top: 2%; 
+            width: 70%;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+
+            .bebidasContent {
+                padding: 30px;
+
+                .bebidasTitle {
+                    font-size: 2.5rem;
+                    margin-bottom: 20px;
+                    font-weight: 500;
+
+                }
+                .bebidasItem{
+                    margin-left: 50px;
+                }
+                .bebidasItemType{
+                    font-size: 20px;
+                }
+                td{
+                    font-size: 20px;
+                    color: #7b4504;
+                    font-weight: bold;
+                }
+               
+                .bebidasItemTitle {
+                    font-size: 30px;
+                    text-align: start;
+                    margin-bottom: 20px;
+                    color: #30210f;
+                    margin-top: 30px;
+
+                }
+                .bebidasMarcas{
+                    display: flex;
+                    justify-content: space-between;
+                    .bebidasMarcasImage{
+                        width: 15%;
+                        border-radius: 50%;
+                    }   
+
+                }
+                .bebidasMarcasDrinks{
+                    .bebidasMarcasImage{
+                        width: 30%;
+                        border-radius: 50%;
+                    }   
+                 
+                }
+             
+                .bebidasItemdescripton{
+                   
+                    border: solid;
+                }
+                
+            
+                
+            }
+    
+
+    }
+
+   
+    .preco {
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 500px;
+        gap: 60px;
+        color: black;
+   
+    }
+
+    .pratoContent {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .htres {
+        font-size: 18px;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .hcinco {
+        font-style: italic;
+        font-size: 14px;
+        color: black;
+        margin-right: 20px;
+        width: 300px;
+        text-align: start;
+
+        
+    }
+
+    .valor {
+        color: #7b4504;
+        font-weight: bold;
+    }
+
+    .nomePrato {
+        font-weight: 800;
+    }
+
+    .container .hum {
+        height: 30px;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+
+
+    }
+
+    .pratos {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        color: black;
+        box-sizing: border-box;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 
     .pratoItem {
