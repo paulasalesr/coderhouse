@@ -321,12 +321,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap; 
+    text-decoration: none;}
   .logo {
     background: transparent;
     cursor: pointer;
     position: relative;
-    padding: 100px 70px 55px; }
+    padding: 100px 70px 55px;
+   margin-top: 15px;
+    margin-left: 15px; }
   .nav-list {
     position: absolute;
     top: -600px;
