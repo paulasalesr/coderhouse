@@ -60,10 +60,11 @@
     border-bottom: none;
     border-left: 2px solid #D8A566;
     text-align: left;
-    display: block; }
+    display: block;
+    width: 80%; }
   .dropdown-menu .dropdown-item:hover {
     border-bottom: none;
-    background: #D8A566;
+    cursor: pointer;
     transition: .4s;
     color: #D8A566; }
   .background .Social {
@@ -278,10 +279,11 @@
     border-bottom: none;
     border-left: 2px solid #D8A566;
     text-align: left;
-    display: block; }
+    display: block;
+    width: 80%; }
   .dropdown-menu .dropdown-item:hover {
     border-bottom: none;
-    background: #D8A566;
+    cursor: pointer;
     transition: .4s;
     color: #D8A566; }
   .background .Social {
