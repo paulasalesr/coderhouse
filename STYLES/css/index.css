@@ -3,6 +3,3124 @@
   padding: 0;
   box-sizing: 0;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+@media screen and (max-width: 576px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    padding-top: 7%;
+    text-align: center; }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .menu-icon {
+    margin-right: 7%;
+    margin-top: 5%; }
+  .logoCoderPoint {
+    margin-left: 2%;
+    width: 300px;
+    padding: 5%; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    transition: .4s;
+    color: #D8A566; }
+  .background .Social {
+    display: none; }
+  .socialMobile {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-content: center; }
+  .socialMobile a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    text-decoration: none; }
+  .socialMobile a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .socialMobile {
+    display: none; }
+  .NavList {
+    display: none; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%; }
+  .NavItem {
+    list-style: none; }
+  .item {
+    text-decoration: none;
+    color: white;
+    font-size: 11px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .container {
+    margin-top: 10px; }
+    .container .cardapio {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px); }
+      .container .cardapio .cardapioTitle {
+        color: #D8A566; }
+    .container .entrada {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+    .container .pratos .pratoContent {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; }
+      .container .pratos .pratoContent .pratoItem {
+        margin-left: 5%; }
+        .container .pratos .pratoContent .pratoItem .pratos .preco {
+          margin-right: 5%; }
+    .container .petiscos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 5%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+    .container .cardapioBebidas {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 50px; }
+      .container .cardapioBebidas .cardapioBebidasTitle {
+        color: #D8A566; }
+    .container .sandubas {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 5%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+    .container .bebidas {
+      height: auto;
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 2%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+      .container .bebidas .bebidasContent {
+        padding: 10px; }
+        .container .bebidas .bebidasContent .bebidasTitle {
+          font-size: 30px;
+          margin-bottom: 20px; }
+        .container .bebidas .bebidasContent .bebidasItemTitle {
+          font-size: 20px;
+          text-align: start;
+          margin-bottom: 10px;
+          color: #30210f;
+          margin-top: 20px; }
+        .container .bebidas .bebidasContent .bebidasItem {
+          margin-top: 10px; }
+        .container .bebidas .bebidasContent td {
+          font-weight: bold;
+          color: #7b4504; }
+        .container .bebidas .bebidasContent .bebidasItemdescripton {
+          border: solid; }
+        .container .bebidas .bebidasContent .bebidasMarcas {
+          display: flex;
+          justify-content: space-between; }
+          .container .bebidas .bebidasContent .bebidasMarcas .bebidasMarcasImage {
+            width: 15%;
+            border-radius: 50%; }
+        .container .bebidas .bebidasContent .bebidasMarcasDrinks .bebidasMarcasImage {
+          width: 30%;
+          border-radius: 50%; } }
+
+.htres {
+  font-size: 16px;
+  color: black; }
+
+.hcinco {
+  font-style: italic;
+  font-size: 12px;
+  color: black; }
+
+.valor {
+  font-weight: bold;
+  color: #7b4504; }
+
+.sticky {
+  display: none; }
+
+.stickyMobile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00bb2d;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 20px;
+  margin-left: 89%; }
+  .stickyMobile .stickyIcon {
+    font-size: 20px;
+    color: white; }
+
+.rodape {
+  background-color: #363636;
+  border: solid; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 20px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+    .rodape .expediente .expedienteTitle {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      margin-top: 0px; }
+    .rodape .expediente .expedienteContent {
+      padding: 0; }
+    .rodape .expediente .expedienteItem {
+      color: white;
+      font-size: 14px;
+      font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+    .rodape .redes .redesSocialTitle {
+      font-size: 18px;
+      color: white;
+      width: 300px;
+      text-align: center; }
+    .rodape .redes .redesSocialLogo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; }
+    .rodape .redes .redesSocialIcon {
+      color: #D8A566;
+      font-size: 20px;
+      font-style: normal;
+      text-decoration: none; }
+    .rodape .redes .redesSocialContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 8px;
+      padding: 20px; }
+    .rodape .redes .redesSocialItem {
+      width: 150px;
+      height: 100px; }
+
+.rodapeEnd {
+  background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; }
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    padding-top: 7%;
+    text-align: center; }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .menu-icon {
+    margin-right: 7%;
+    margin-top: 5%; }
+  .logoCoderPoint {
+    margin-left: 10%;
+    width: 300px;
+    padding: 5%; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    transition: .4s;
+    color: #D8A566; }
+  .background .Social {
+    display: none; }
+  .socialMobile {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100px; }
+  .socialMobile a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    text-decoration: none; }
+  .socialMobile a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .socialMobile {
+    display: none; }
+  .NavList {
+    display: none; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%; }
+  .NavItem {
+    list-style: none; }
+  .item {
+    text-decoration: none;
+    color: white;
+    font-size: 11px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .container {
+    margin-top: 10px; }
+    .container .cardapio {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px); }
+      .container .cardapio .cardapioTitle {
+        color: #D8A566; }
+    .container .entrada {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+    .container .pratos .pratoContent {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; }
+      .container .pratos .pratoContent .pratoItem {
+        margin-left: 5%; }
+        .container .pratos .pratoContent .pratoItem .pratos .preco {
+          margin-right: 5%; }
+    .container .petiscos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 5%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+    .container .cardapioBebidas {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(78, 77, 77, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 50px; }
+      .container .cardapioBebidas .cardapioBebidasTitle {
+        color: #D8A566; }
+    .container .sandubas {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 5%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+    .container .bebidas {
+      height: auto;
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      margin-top: 2%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px); }
+      .container .bebidas .bebidasContent {
+        padding: 10px; }
+        .container .bebidas .bebidasContent .bebidasTitle {
+          font-size: 30px;
+          margin-bottom: 20px; }
+        .container .bebidas .bebidasContent td {
+          color: #7b4504;
+          font-weight: bold; }
+        .container .bebidas .bebidasContent .bebidasItemTitle {
+          font-size: 20px;
+          text-align: start;
+          margin-bottom: 20px;
+          color: #30210f;
+          margin-top: 10px; }
+        .container .bebidas .bebidasContent .bebidasItemdescripton {
+          border: solid; }
+        .container .bebidas .bebidasContent .bebidasMarcas {
+          display: flex;
+          justify-content: space-between; }
+          .container .bebidas .bebidasContent .bebidasMarcas .bebidasMarcasImage {
+            width: 15%;
+            border-radius: 50%; }
+        .container .bebidas .bebidasContent .bebidasMarcasDrinks .bebidasMarcasImage {
+          width: 30%;
+          border-radius: 50%; }
+  .htres {
+    font-size: 16px;
+    color: black; }
+  .hcinco {
+    font-style: italic;
+    font-size: 12px;
+    color: black; }
+  .valor {
+    color: #7b4504;
+    font-weight: bold; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 80%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+      padding: 30px;
+      margin-top: 20px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-align: center; }
+    .rodape .adress .adressItem {
+      font-size: 14px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 14px;
+        font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 20px; }
+      .rodape .redes .redesSocialItem {
+        width: 150px;
+        height: 100px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .socialMobile {
+    display: none; }
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .menu-icon {
+    display: none; }
+  .logoCoderPoint {
+    width: 300px;
+    padding: 5%;
+    padding: 20px; }
+  .Menu .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-right: 50px; }
+  .Menu .NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 600px; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%; }
+  .NavList .NavItem {
+    list-style: none; }
+  .NavList .item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .Social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    text-decoration: none; }
+  .Social a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .container {
+    width: 100%; }
+  .container .cardapio {
+    width: 630px;
+    margin-left: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px); }
+    .container .cardapio .cardapioTitle {
+      color: #D8A566; }
+  .container .entrada {
+    width: 90%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px; }
+    .container .entrada .entradaContent {
+      text-align: center; }
+  .container .petiscos {
+    width: 90%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-left: 40px; }
+    .container .petiscos .petiscoContent {
+      text-align: center; }
+  .container .sandubas {
+    height: 700px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-left: 300px;
+    margin-bottom: 30px;
+    margin-left: 40px; }
+    .container .sandubas .sandubasContent {
+      text-align: center; }
+  .container .cardapioBebidas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    width: 630px;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 50px; }
+    .container .cardapioBebidas .cardapioBebidasTitle {
+      color: #D8A566;
+      margin-top: 20px; }
+  .container .bebidas {
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); }
+    .container .bebidas .bebidasContent {
+      padding: 10px; }
+      .container .bebidas .bebidasContent .bebidasTitle {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .container .bebidas .bebidasContent .bebidasItemType {
+        text-align: center;
+        margin-left: 10px;
+        font-size: 18px; }
+      .container .bebidas .bebidasContent td {
+        font-size: 18px;
+        color: #7b4504;
+        font-weight: bold; }
+      .container .bebidas .bebidasContent .bebidasItemTitle {
+        font-size: 20px;
+        text-align: start;
+        margin-bottom: 20px;
+        color: #30210f;
+        margin-top: 20px; }
+      .container .bebidas .bebidasContent .bebidasMarcas {
+        display: flex;
+        justify-content: space-between; }
+        .container .bebidas .bebidasContent .bebidasMarcas .bebidasMarcasImage {
+          width: 15%;
+          border-radius: 50%; }
+      .container .bebidas .bebidasContent .bebidasMarcasDrinks .bebidasMarcasImage {
+        width: 30%;
+        border-radius: 50%; }
+  .preco {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    gap: 60px;
+    color: black; }
+  .pratoContent {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
+  .htres {
+    font-size: 16px;
+    color: black;
+    margin-top: 30px; }
+  .hcinco {
+    font-style: italic;
+    font-size: 12px;
+    color: black;
+    width: 300px;
+    text-align: start; }
+  .valor {
+    color: #7b4504;
+    font-weight: bold; }
+  .nomePrato {
+    font-weight: 800; }
+  .container .hum {
+    height: 30px;
+    margin-left: 10px;
+    color: black;
+    text-align: center; }
+  .pratos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 30px; }
+  .pratoItem {
+    margin-top: 0px; }
+  .artesanais .prato {
+    display: flex;
+    flex-direction: column; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 78%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adress {
+      display: none; }
+    .rodape .adressTablet .adressTitleTablet {
+      font-size: 16px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adressTablet .adressItemTablet {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adressTablet .adressItemTablet:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        list-style: none; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 20px; }
+      .rodape .redes .redesSocialItem {
+        width: 130px;
+        height: 80px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .socialMobile {
+    display: none; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px; }
+  .menu-icon {
+    display: none; }
+  .logoCoderPoint {
+    margin-left: 30%;
+    width: 300px; }
+  .Menu .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%; }
+  .Menu .NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 80px;
+    width: 600px;
+    align-items: center; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+    margin-right: 0%; }
+  .NavList .NavItem {
+    list-style: none; }
+  .NavList .item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .Social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    text-decoration: none; }
+  .Social a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .container .cardapio {
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    width: 70%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px); }
+    .container .cardapio .cardapioTitle {
+      color: #D8A566; }
+  .container .entrada {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 150px; }
+    .container .entrada .entradaContent {
+      text-align: center;
+      margin-top: 30px; }
+  .container .petiscos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-left: 150px; }
+    .container .petiscos .petiscoContent {
+      text-align: center;
+      margin-top: 20px; }
+  .container .sandubas {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-left: 150px; }
+    .container .sandubas .sandubasContent {
+      text-align: center;
+      margin-top: 20px; }
+  .container .cardapioBebidas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    width: 70%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 50px; }
+    .container .cardapioBebidas .cardapioBebidasTitle {
+      color: #D8A566; }
+  .container .bebidas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-left: 2px solid white;
+    border-bottom: 2px solid white; }
+    .container .bebidas .bebidasItem {
+      margin-left: 50px; }
+    .container .bebidas td {
+      font-size: 20px;
+      color: #7b4504;
+      font-weight: bold; }
+    .container .bebidas .bebidasContent {
+      padding: 30px; }
+      .container .bebidas .bebidasContent .bebidasTitle {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: 500; }
+      .container .bebidas .bebidasContent .bebidasItemTitle {
+        font-size: 30px;
+        text-align: start;
+        margin-bottom: 20px;
+        color: #30210f;
+        margin-top: 30px; }
+      .container .bebidas .bebidasContent .bebidasItemType {
+        font-size: 20px; }
+      .container .bebidas .bebidasContent .bebidasMarcas {
+        display: flex;
+        justify-content: space-between; }
+        .container .bebidas .bebidasContent .bebidasMarcas .bebidasMarcasImage {
+          width: 15%;
+          border-radius: 50%; }
+      .container .bebidas .bebidasContent .bebidasMarcasDrinks .bebidasMarcasImage {
+        width: 30%;
+        border-radius: 50%; }
+  .container .preco {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    gap: 60px;
+    color: black; }
+  .container .pratoContent {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; }
+  .container .htres {
+    font-size: 18px;
+    color: black;
+    margin-top: 30px; }
+  .container .hcinco {
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    margin-right: 20px;
+    width: 300px;
+    text-align: start; }
+  .container .valor {
+    color: #7b4504;
+    font-weight: bold; }
+  .container .nomePrato {
+    font-weight: 800; }
+  .container .container .hum {
+    height: 30px;
+    margin-left: 10px;
+    color: black;
+    text-align: center; }
+  .container .pratos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  .container .pratoItem {
+    margin-top: 0px; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 85%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adress .adressItem {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 10px; }
+      .rodape .redes .redesSocialItem {
+        width: 140px;
+        height: 90px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+@media screen and (min-width: 1200px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .socialMobile {
+    display: none; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px; }
+  .menu-icon {
+    display: none; }
+  .logoCoderPoint {
+    margin-left: 30%;
+    width: 300px; }
+  .Menu .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%; }
+  .Menu .NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 80px;
+    width: 600px;
+    align-items: center; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+    margin-right: 0%; }
+  .NavList .NavItem {
+    list-style: none; }
+  .NavList .item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .Social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    text-decoration: none; }
+  .Social a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .container .cardapio {
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    width: 70%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px); }
+    .container .cardapio .cardapioTitle {
+      color: #D8A566; }
+  .container .entrada {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 150px; }
+    .container .entrada .entradaContent {
+      text-align: center;
+      margin-top: 30px; }
+  .container .petiscos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-left: 150px; }
+    .container .petiscos .petiscoContent {
+      text-align: center;
+      margin-top: 20px; }
+  .container .sandubas {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    margin-left: 150px; }
+    .container .sandubas .sandubasContent {
+      text-align: center;
+      margin-top: 20px; }
+  .container .cardapioBebidas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    width: 70%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 50px; }
+    .container .cardapioBebidas .cardapioBebidasTitle {
+      color: #D8A566; }
+  .container .bebidas {
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-left: 2px solid white;
+    border-bottom: 2px solid white; }
+    .container .bebidas .bebidasContent {
+      padding: 30px; }
+      .container .bebidas .bebidasContent .bebidasTitle {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: 500; }
+      .container .bebidas .bebidasContent .bebidasItem {
+        margin-left: 50px; }
+      .container .bebidas .bebidasContent .bebidasItemType {
+        font-size: 20px; }
+      .container .bebidas .bebidasContent td {
+        font-size: 20px;
+        color: #7b4504;
+        font-weight: bold; }
+      .container .bebidas .bebidasContent .bebidasItemTitle {
+        font-size: 30px;
+        text-align: start;
+        margin-bottom: 20px;
+        color: #30210f;
+        margin-top: 30px; }
+      .container .bebidas .bebidasContent .bebidasMarcas {
+        display: flex;
+        justify-content: space-between; }
+        .container .bebidas .bebidasContent .bebidasMarcas .bebidasMarcasImage {
+          width: 15%;
+          border-radius: 50%; }
+      .container .bebidas .bebidasContent .bebidasMarcasDrinks .bebidasMarcasImage {
+        width: 30%;
+        border-radius: 50%; }
+      .container .bebidas .bebidasContent .bebidasItemdescripton {
+        border: solid; }
+  .container .preco {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    gap: 60px;
+    color: black; }
+  .container .pratoContent {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; }
+  .container .htres {
+    font-size: 18px;
+    color: black;
+    margin-top: 30px; }
+  .container .hcinco {
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    margin-right: 20px;
+    width: 300px;
+    text-align: start; }
+  .container .valor {
+    color: #7b4504;
+    font-weight: bold; }
+  .container .nomePrato {
+    font-weight: 800; }
+  .container .container .hum {
+    height: 30px;
+    margin-left: 10px;
+    color: black;
+    text-align: center; }
+  .container .pratos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  .container .pratoItem {
+    margin-top: 0px; }
+  .stickyMobile {
+    display: none; }
+  .sticky {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bb2d;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 85%; }
+    .sticky .stickyName {
+      font-size: 14px;
+      color: white;
+      font-weight: bold; }
+    .sticky .stickyIcon {
+      font-size: 20px;
+      color: white;
+      margin-top: 5px; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adress .adressItem {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 10px; }
+      .rodape .redes .redesSocialItem {
+        width: 140px;
+        height: 90px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+@media screen and (max-width: 576px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    padding-top: 7%;
+    text-align: center; }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .menu-icon {
+    margin-right: 7%;
+    margin-top: 5%; }
+  .logoCoderPoint {
+    margin-left: 10%;
+    width: 300px;
+    padding: 5%; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    cursor: pointer;
+    transition: .4s;
+    color: #D8A566; }
+  .background .Social {
+    display: none; }
+  .socialMobile {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-content: center; }
+  .socialMobile a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    text-decoration: none; }
+  .socialMobile a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .socialMobile {
+    display: none; }
+  .NavList {
+    display: none; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%; }
+  .NavItem {
+    list-style: none; }
+  .item {
+    text-decoration: none;
+    color: white;
+    font-size: 11px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .principal {
+    margin-top: 10px; }
+    .principal .quem_somos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
+        color: #D8A566;
+        background-color: #363636; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; } }
+
+.rodape {
+  background-color: #363636;
+  border: solid;
+  margin-top: 20px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 20px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+    .rodape .expediente .expedienteTitle {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      margin-top: 0px; }
+    .rodape .expediente .expedienteContent {
+      padding: 0; }
+    .rodape .expediente .expedienteItem {
+      color: white;
+      font-size: 14px;
+      font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+    .rodape .redes .redesSocialTitle {
+      font-size: 18px;
+      color: white;
+      width: 300px;
+      text-align: center; }
+    .rodape .redes .redesSocialLogo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; }
+    .rodape .redes .redesSocialIcon {
+      color: #D8A566;
+      font-size: 20px;
+      font-style: normal;
+      text-decoration: none; }
+    .rodape .redes .redesSocialContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 8px;
+      padding: 20px; }
+    .rodape .redes .redesSocialItem {
+      width: 150px;
+      height: 100px; }
+
+.rodapeEnd {
+  background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; }
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    padding-top: 7%;
+    text-align: center; }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .menu-icon {
+    margin-right: 7%;
+    margin-top: 5%; }
+  .logoCoderPoint {
+    margin-left: 10%;
+    width: 300px;
+    padding: 5%; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    cursor: pointer;
+    transition: .4s;
+    color: #D8A566; }
+  .background .Social {
+    display: none; }
+  .socialMobile {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-content: center; }
+  .socialMobile a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #F8F4E9;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    text-decoration: none; }
+  .socialMobile a:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s; }
+  .socialMobile {
+    display: none; }
+  .NavList {
+    display: none; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%; }
+  .NavItem {
+    list-style: none; }
+  .item {
+    text-decoration: none;
+    color: white;
+    font-size: 11px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .principal {
+    margin-top: 10px; }
+    .principal .quem_somos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
+        color: #D8A566;
+        background-color: #363636; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; } }
+
+.rodape {
+  background-color: #363636;
+  border: solid;
+  margin-top: 20px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 20px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+    .rodape .expediente .expedienteTitle {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      margin-top: 0px; }
+    .rodape .expediente .expedienteContent {
+      padding: 0; }
+    .rodape .expediente .expedienteItem {
+      color: white;
+      font-size: 14px;
+      font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+    .rodape .redes .redesSocialTitle {
+      font-size: 18px;
+      color: white;
+      width: 300px;
+      text-align: center; }
+    .rodape .redes .redesSocialLogo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; }
+    .rodape .redes .redesSocialIcon {
+      color: #D8A566;
+      font-size: 20px;
+      font-style: normal;
+      text-decoration: none; }
+    .rodape .redes .redesSocialContent {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 8px;
+      padding: 20px; }
+    .rodape .redes .redesSocialItem {
+      width: 150px;
+      height: 100px; }
+
+.rodapeEnd {
+  background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .socialMobile {
+    display: none; }
+  .Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .menu-icon {
+    display: none; }
+  .logoCoderPoint {
+    width: 300px;
+    padding: 5%;
+    padding: 20px; }
+  .Menu .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-right: 50px; }
+  .Menu .NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 600px; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%; }
+  .NavList .NavItem {
+    list-style: none; }
+  .NavList .item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .principal {
+    margin-top: 10px; }
+    .principal .quem_somos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
+        color: #D8A566;
+        background-color: #363636; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 80%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adress {
+      display: none; }
+    .rodape .adressTablet .adressTitleTablet {
+      font-size: 16px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adressTablet .adressItemTablet {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adressTablet .adressItemTablet:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+        list-style: none; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 20px; }
+      .rodape .redes .redesSocialItem {
+        width: 130px;
+        height: 80px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+@media screen and (min-width: 993px) {
+  section {
+    width: 100%;
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed; }
+  .socialMobile {
+    display: none; }
+  .menuTablet {
+    display: none; }
+  .Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px; }
+  .menu-icon {
+    display: none; }
+  .logoCoderPoint {
+    margin-left: 30%;
+    width: 300px; }
+  .Menu .Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%; }
+  .Menu .NavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 80px;
+    width: 600px;
+    align-items: center; }
+  .NavList .NavContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+    margin-right: 0%; }
+  .NavList .NavItem {
+    list-style: none; }
+  .NavList .item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; }
+  .item:hover {
+    color: #D8A566;
+    transition: color .4s; }
+  .principal {
+    margin-top: 10px; }
+    .principal .quem_somos {
+      text-align: center;
+      padding: 10px;
+      margin-left: 10%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      margin-top: 5px; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto {
+        text-align: justify; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_historia_texto_link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_image {
+        width: 80%;
+        margin-left: 10%; }
+      .principal .quem_somos .quem_somos_historia .quem_somos_imagetext {
+        font-size: 1em;
+        text-align: center; }
+      .principal .quem_somos .nossa_chef .nossa_chef_titulo {
+        color: #D8A566;
+        background-color: #363636;
+        width: 100%; }
+      .principal .quem_somos .nossa_chef .nossa_chef_video {
+        width: 90%; }
+  .rodape {
+    background-color: #363636;
+    border: solid; }
+    .rodape .rodapeContent {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px; }
+    .rodape .adressTablet {
+      display: none; }
+    .rodape .adress .adressTitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: white; }
+    .rodape .adress .adressItem {
+      font-size: 16px;
+      font-weight: 200;
+      color: white;
+      text-decoration: none; }
+    .rodape .adress .adressItem:hover {
+      color: #D8A566;
+      cursor: pointer; }
+    .rodape .expediente {
+      margin-top: 2px; }
+      .rodape .expediente .expedienteTitle {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 0px; }
+      .rodape .expediente .expedienteContent {
+        padding: 0; }
+      .rodape .expediente .expedienteItem {
+        color: white;
+        font-size: 16px;
+        font-weight: 100; }
+    .rodape .redes {
+      height: 300px;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 30px; }
+      .rodape .redes .redesSocialTitle {
+        font-size: 18px;
+        color: white;
+        width: 200px;
+        text-align: center; }
+      .rodape .redes .redesSocialLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }
+      .rodape .redes .redesSocialIcon {
+        color: #D8A566;
+        font-size: 20px;
+        font-style: normal;
+        text-decoration: none; }
+      .rodape .redes .redesSocialContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        padding: 10px; }
+      .rodape .redes .redesSocialItem {
+        width: 140px;
+        height: 90px; }
+  .rodapeEnd {
+    background-color: black; }
+    .rodapeEnd .rodapeEndLink {
+      text-decoration: none; }
+    .rodapeEnd .rodapeEndLogo {
+      width: 130px;
+      padding: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+/*mobile*/
+@media screen and (max-width: 576px) {
+  .body {
+    overflow-y: hidden; }
+  .background {
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    min-height: 240vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: absolute; }
+  .header {
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap; }
+  .nav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-decoration: none; }
+  .logo {
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    padding: 100px 70px 55px; }
+  .nav-list {
+    display: none; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    transition: .4s;
+    color: #D8A566; }
+  .container {
+    margin-left: 20px;
+    width: 80%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px); }
+  .form-title {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #F8F4E9; }
+  .row {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px; }
+  .col-md-4 {
+    padding-bottom: 10px; }
+  .form-label {
+    font-weight: 300;
+    font-size: 14px;
+    color: #D6C6B7; }
+  .text-effect {
+    color: #D8A566; }
+  .option-color {
+    color: #D8A566; }
+  .form-select {
+    color: #D8A566 !important; }
+  .validationCustom01 {
+    color: #D6C6B7; }
+  .btn-primary {
+    color: #F8F4E9;
+    background: #D8A566;
+    font-size: 22px;
+    transition: .2s;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 6px 32px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 5px solid #D8A566;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px; }
+  .btn-primary:hover {
+    background: transparent;
+    border: 5px solid #D8A566;
+    color: #D8A566; }
+  .rodape {
+    background-color: #363636;
+    border: solid;
+    margin-top: 35px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 10px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+  .rodape .expediente .expedienteTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 0px; }
+  .rodape .expediente .expedienteContent {
+    padding: 0; }
+  .rodape .expediente .expedienteItem {
+    color: white;
+    font-size: 14px;
+    font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+  .rodape .redes .redesSocialTitle {
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    text-align: center; }
+  .rodape .redes .redesSocialLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }
+  .rodape .redes .redesSocialIcon {
+    color: #D8A566;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none; }
+  .rodape .redes .redesSocialContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    padding: 20px; }
+  .rodape .redes .redesSocialItem {
+    width: 150px;
+    height: 100px; }
+  .rodapeEnd {
+    background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; } }
+
+/* Tablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .body {
+    overflow-y: hidden; }
+  .background {
+    width: 100%;
+    height: 100%;
+    min-width: 100vh;
+    min-height: 240vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: absolute; }
+  .header {
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap; }
+  .nav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-decoration: none; }
+  .logo {
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    padding: 100px 70px 55px; }
+  .nav-list {
+    display: none; }
+  .menu-icon {
+    color: #D6C6B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    z-index: 1001; }
+  .menu-icon:hover {
+    transform: scale(1.1);
+    background: #D8A566;
+    transition: .4s;
+    color: #F8F4E9; }
+  .menu-icon .dropdown-menu {
+    background-color: #6a6969;
+    width: 30%;
+    height: auto; }
+  .dropdown-menu .dropdown-item {
+    color: #F8F4E9;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: none;
+    border-left: 2px solid #D8A566;
+    text-align: left;
+    display: block;
+    width: 80%; }
+  .dropdown-menu .dropdown-item:hover {
+    border-bottom: none;
+    transition: .4s;
+    color: #D8A566; }
+  .container {
+    margin-left: 20px;
+    width: 80%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px); }
+  .form-title {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #F8F4E9; }
+  .row {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px; }
+  .col-md-4 {
+    padding-bottom: 10px; }
+  .form-label {
+    font-weight: 300;
+    font-size: 14px;
+    color: #D6C6B7; }
+  .text-effect {
+    color: #D8A566; }
+  .option-color {
+    color: #D8A566; }
+  .form-select {
+    color: #D8A566 !important; }
+  .validationCustom01 {
+    color: #D6C6B7; }
+  .btn-primary {
+    color: #F8F4E9;
+    background: #D8A566;
+    font-size: 22px;
+    transition: .2s;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 6px 32px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 5px solid #D8A566;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px; }
+  .btn-primary:hover {
+    background: transparent;
+    border: 5px solid #D8A566;
+    color: #D8A566; }
+  .rodape {
+    background-color: #363636;
+    border: solid;
+    margin-top: 35px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 10px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+  .rodape .expediente .expedienteTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 0px; }
+  .rodape .expediente .expedienteContent {
+    padding: 0; }
+  .rodape .expediente .expedienteItem {
+    color: white;
+    font-size: 14px;
+    font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+  .rodape .redes .redesSocialTitle {
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    text-align: center; }
+  .rodape .redes .redesSocialLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }
+  .rodape .redes .redesSocialIcon {
+    color: #D8A566;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none; }
+  .rodape .redes .redesSocialContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    padding: 20px; }
+  .rodape .redes .redesSocialItem {
+    width: 150px;
+    height: 100px; }
+  .rodapeEnd {
+    background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; } }
+
+/*tablet*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .body {
+    overflow-x: hidden; }
+  .background {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; }
+  .header {
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap; }
+  .nav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-decoration: none; }
+  .logo {
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px; }
+  .nav-list {
+    margin-top: 30px; }
+  .nav-list a {
+    display: inline-block;
+    color: #F8F4E9;
+    margin-left: 55px;
+    font-size: 14px;
+    font-weight: 400;
+    flex-wrap: nowrap !important;
+    border-bottom: none;
+    text-decoration: none; }
+  .nav-list a:hover {
+    color: #D8A566;
+    transition: .4s; }
+  .menu-icon {
+    display: none; }
+  .container {
+    margin-left: 20px;
+    width: 80%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 30px; }
+  .form-title {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #F8F4E9; }
+  .row {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px; }
+  .col-md-4 {
+    padding-bottom: 10px; }
+  .form-label {
+    font-weight: 300;
+    font-size: 14px;
+    color: #D6C6B7; }
+  .text-effect {
+    color: #D8A566; }
+  .option-color {
+    color: #D8A566; }
+  .form-select {
+    color: #D8A566 !important; }
+  .validationCustom01 {
+    color: #D6C6B7; }
+  .btn-primary {
+    color: #F8F4E9;
+    background: #D8A566;
+    font-size: 22px;
+    transition: .2s;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 6px 32px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 5px solid #D8A566;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px; }
+  .btn-primary:hover {
+    background: transparent;
+    border: 5px solid #D8A566;
+    color: #D8A566; }
+  .rodape {
+    background-color: #363636;
+    border: solid;
+    margin-top: 35px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 10px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+  .rodape .expediente .expedienteTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 0px; }
+  .rodape .expediente .expedienteContent {
+    padding: 0; }
+  .rodape .expediente .expedienteItem {
+    color: white;
+    font-size: 14px;
+    font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+  .rodape .redes .redesSocialTitle {
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    text-align: center; }
+  .rodape .redes .redesSocialLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }
+  .rodape .redes .redesSocialIcon {
+    color: #D8A566;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none; }
+  .rodape .redes .redesSocialContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    padding: 20px; }
+  .rodape .redes .redesSocialItem {
+    width: 150px;
+    height: 100px; }
+  .rodapeEnd {
+    background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; } }
+
+@media screen and (min-width: 993px) {
+  .body {
+    overflow-x: hidden; }
+  .background {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; }
+  .header {
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap; }
+  .nav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none; }
+  .logo {
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px; }
+  .nav-list {
+    margin-top: 30px; }
+  .nav-list a {
+    display: inline-block;
+    color: #F8F4E9;
+    margin-left: 55px;
+    font-size: 14px;
+    font-weight: 400;
+    flex-wrap: nowrap !important;
+    border-bottom: none;
+    text-decoration: none; }
+  .nav-list a:hover {
+    color: #D8A566;
+    transition: .4s; }
+  .menu-icon {
+    display: none; }
+  .container {
+    margin-left: 20px;
+    width: 80%;
+    background-color: rgba(78, 77, 77, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 30px; }
+  .form-title {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #F8F4E9; }
+  .row {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px; }
+  .col-md-4 {
+    padding-bottom: 10px; }
+  .form-label {
+    font-weight: 300;
+    font-size: 14px;
+    color: #D6C6B7; }
+  .text-effect {
+    color: #D8A566; }
+  .option-color {
+    color: #D8A566; }
+  .form-select {
+    color: #D8A566 !important; }
+  .validationCustom01 {
+    color: #D6C6B7; }
+  .btn-primary {
+    color: #F8F4E9;
+    background: #D8A566;
+    font-size: 22px;
+    transition: .2s;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 6px 32px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 5px solid #D8A566;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px; }
+  .btn-primary:hover {
+    background: transparent;
+    border: 5px solid #D8A566;
+    color: #D8A566; }
+  .rodape {
+    background-color: #363636;
+    border: solid;
+    margin-top: 35px; }
+  .rodape .rodapeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 10px; }
+  .rodape .adressTablet {
+    display: none; }
+  .rodape .adress .adressTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .rodape .adress .adressItem {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none; }
+  .rodape .adress .adressItem:hover {
+    color: #D8A566;
+    cursor: pointer; }
+  .rodape .expediente {
+    margin-top: 2px; }
+  .rodape .expediente .expedienteTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 0px; }
+  .rodape .expediente .expedienteContent {
+    padding: 0; }
+  .rodape .expediente .expedienteItem {
+    color: white;
+    font-size: 14px;
+    font-weight: 100; }
+  .rodape .redes {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px; }
+  .rodape .redes .redesSocialTitle {
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    text-align: center; }
+  .rodape .redes .redesSocialLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }
+  .rodape .redes .redesSocialIcon {
+    color: #D8A566;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none; }
+  .rodape .redes .redesSocialContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    padding: 20px; }
+  .rodape .redes .redesSocialItem {
+    width: 150px;
+    height: 100px; }
+  .rodapeEnd {
+    background-color: black; }
+  .rodapeEnd .rodapeEndLink {
+    text-decoration: none; }
+  .rodapeEnd .rodapeEndLogo {
+    width: 130px;
+    padding: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
   font-family: 'Poppins', sans-serif;
   list-style: none; }
 
@@ -71,7 +3189,9 @@
     display: none; }
   .container {
     padding-top: 10px;
-    padding-left: 100px; }
+    padding-left: 100px;
+    width: 100%;
+    margin-left: 100px; }
   .container main-text {
     margin-bottom: 40px; }
   .main-text h1 {
