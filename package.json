@@ -89,7 +89,7 @@
     "infer-owner": "^1.0.4",
     "indent-string": "^4.0.0",
     "inherits": "^2.0.4",
-    "ip": "^2.0.0",
+    "ip": "^2.0.1",
     "iconv-lite": "^0.6.3",
     "ignore-by-default": "^1.0.1",
     "imurmurhash": "^0.1.4",
